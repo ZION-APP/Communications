@@ -1,0 +1,20 @@
+2021-06-28T20:02:58.0565100Z ##[group]Run actions/setup-java@v1
+2021-06-28T20:02:58.0565724Z with:
+2021-06-28T20:02:58.0566221Z   java-version: 12.x
+2021-06-28T20:02:58.0566793Z   java-package: jdk
+2021-06-28T20:02:58.0567355Z   architecture: x64
+2021-06-28T20:02:58.0567911Z   server-id: github
+2021-06-28T20:02:58.0568530Z   server-username: GITHUB_ACTOR
+2021-06-28T20:02:58.0569237Z   server-password: GITHUB_TOKEN
+2021-06-28T20:02:58.0569845Z ##[endgroup]
+2021-06-28T20:02:59.8340035Z [command]/usr/bin/tar --version
+2021-06-28T20:02:59.8475172Z tar (GNU tar) 1.30
+2021-06-28T20:02:59.8484538Z Copyright (C) 2017 Free Software Foundation, Inc.
+2021-06-28T20:02:59.8513448Z License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+2021-06-28T20:02:59.8514976Z This is free software: you are free to change and redistribute it.
+2021-06-28T20:02:59.8519469Z There is NO WARRANTY, to the extent permitted by law.
+2021-06-28T20:02:59.8520263Z 
+2021-06-28T20:02:59.8521242Z Written by John Gilmore and Jay Fenlason.
+2021-06-28T20:02:59.8523828Z [command]/usr/bin/tar xz --warning=no-unknown-keyword -C /home/runner/work/_temp/temp_1018179314 -f /home/runner/work/_temp/8f93d31c-d4df-4b29-b8ac-d160c3ac0ee7
+2021-06-28T20:03:03.7714104Z creating settings.xml with server-id: github; environment variables: username=$GITHUB_ACTOR, *** and gpg-passphrase=null
+2021-06-28T20:03:03.7769055Z writing /home/runner/.m2/settings.xml

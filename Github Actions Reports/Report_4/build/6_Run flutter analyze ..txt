@@ -1,0 +1,12 @@
+2021-06-29T00:41:39.1042156Z ##[group]Run flutter analyze .
+2021-06-29T00:41:39.1042993Z [36;1mflutter analyze .[0m
+2021-06-29T00:41:39.1082013Z shell: /usr/bin/bash -e {0}
+2021-06-29T00:41:39.1082402Z env:
+2021-06-29T00:41:39.1082861Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:39.1083461Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:39.1084040Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:39.1084712Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64
+2021-06-29T00:41:39.1085471Z   PUB_CACHE: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache
+2021-06-29T00:41:39.1086056Z ##[endgroup]
+2021-06-29T00:41:54.7550742Z Analyzing ZION-FRONTEND...                                      
+2021-06-29T00:41:54.7584799Z No issues found! (ran in 14.6s)

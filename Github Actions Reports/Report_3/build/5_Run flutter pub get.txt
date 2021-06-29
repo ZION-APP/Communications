@@ -1,0 +1,40 @@
+2021-06-28T20:06:24.3885914Z ##[group]Run flutter pub get
+2021-06-28T20:06:24.3886445Z [36;1mflutter pub get[0m
+2021-06-28T20:06:24.3929260Z shell: /usr/bin/bash -e {0}
+2021-06-28T20:06:24.3929642Z env:
+2021-06-28T20:06:24.3930109Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T20:06:24.3930701Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T20:06:24.3931269Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T20:06:24.3931923Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64
+2021-06-28T20:06:24.3932656Z   PUB_CACHE: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache
+2021-06-28T20:06:24.3933267Z ##[endgroup]
+2021-06-28T20:06:25.2834948Z 
+2021-06-28T20:06:25.2908575Z   ╔════════════════════════════════════════════════════════════════════════════╗
+2021-06-28T20:06:25.2909536Z   ║                 Welcome to Flutter! - https://flutter.dev                  ║
+2021-06-28T20:06:25.2910502Z   ║                                                                            ║
+2021-06-28T20:06:25.2911610Z   ║ The Flutter tool uses Google Analytics to anonymously report feature usage ║
+2021-06-28T20:06:25.2912849Z   ║ statistics and basic crash reports. This data is used to help improve      ║
+2021-06-28T20:06:25.2913979Z   ║ Flutter tools over time.                                                   ║
+2021-06-28T20:06:25.2914696Z   ║                                                                            ║
+2021-06-28T20:06:25.2915661Z   ║ Flutter tool analytics are not sent on the very first run. To disable      ║
+2021-06-28T20:06:25.2916696Z   ║ reporting, type 'flutter config --no-analytics'. To display the current    ║
+2021-06-28T20:06:25.2917732Z   ║ setting, type 'flutter config'. If you opt out of analytics, an opt-out    ║
+2021-06-28T20:06:25.2918755Z   ║ event will be sent, and then no further information will be sent by the    ║
+2021-06-28T20:06:25.2919546Z   ║ Flutter tool.                                                              ║
+2021-06-28T20:06:25.2920381Z   ║                                                                            ║
+2021-06-28T20:06:25.2921228Z   ║ By downloading the Flutter SDK, you agree to the Google Terms of Service.  ║
+2021-06-28T20:06:25.2922381Z   ║ Note: The Google Privacy Policy describes how data is handled in this      ║
+2021-06-28T20:06:25.2924451Z   ║ service.                                                                   ║
+2021-06-28T20:06:25.2989308Z   ║                                                                            ║
+2021-06-28T20:06:25.2992487Z   ║ Moreover, Flutter includes the Dart SDK, which may send usage metrics and  ║
+2021-06-28T20:06:25.2993800Z   ║ crash reports to Google.                                                   ║
+2021-06-28T20:06:25.2994771Z   ║                                                                            ║
+2021-06-28T20:06:25.2995598Z   ║ Read about data we send with crash reports:                                ║
+2021-06-28T20:06:25.2996818Z   ║ https://flutter.dev/docs/reference/crash-reporting                         ║
+2021-06-28T20:06:25.2997738Z   ║                                                                            ║
+2021-06-28T20:06:25.2998477Z   ║ See Google's privacy policy:                                               ║
+2021-06-28T20:06:25.2999707Z   ║ https://policies.google.com/privacy                                        ║
+2021-06-28T20:06:25.3000905Z   ╚════════════════════════════════════════════════════════════════════════════╝
+2021-06-28T20:06:25.3001241Z 
+2021-06-28T20:06:26.5249906Z Running "flutter pub get" in flutter_tools...                    1,191ms
+2021-06-28T20:06:32.1070585Z Running "flutter pub get" in ZION-FRONTEND...                       5.5s

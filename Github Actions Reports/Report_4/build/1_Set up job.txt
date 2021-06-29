@@ -1,0 +1,33 @@
+2021-06-29T00:40:30.4916981Z Current runner version: '2.278.0'
+2021-06-29T00:40:30.4942026Z ##[group]Operating System
+2021-06-29T00:40:30.4942905Z Ubuntu
+2021-06-29T00:40:30.4943394Z 20.04.2
+2021-06-29T00:40:30.4943801Z LTS
+2021-06-29T00:40:30.4944287Z ##[endgroup]
+2021-06-29T00:40:30.4944824Z ##[group]Virtual Environment
+2021-06-29T00:40:30.4945519Z Environment: ubuntu-20.04
+2021-06-29T00:40:30.4946059Z Version: 20210614.1
+2021-06-29T00:40:30.4947054Z Included Software: https://github.com/actions/virtual-environments/blob/ubuntu20/20210614.1/images/linux/Ubuntu2004-README.md
+2021-06-29T00:40:30.4948379Z Image Release: https://github.com/actions/virtual-environments/releases/tag/ubuntu20%2F20210614.1
+2021-06-29T00:40:30.4949217Z ##[endgroup]
+2021-06-29T00:40:30.4951106Z ##[group]GITHUB_TOKEN Permissions
+2021-06-29T00:40:30.4952241Z Actions: write
+2021-06-29T00:40:30.4952725Z Checks: write
+2021-06-29T00:40:30.4953259Z Contents: write
+2021-06-29T00:40:30.4953756Z Deployments: write
+2021-06-29T00:40:30.4954339Z Discussions: write
+2021-06-29T00:40:30.4954967Z Issues: write
+2021-06-29T00:40:30.4955515Z Metadata: read
+2021-06-29T00:40:30.4955992Z Packages: write
+2021-06-29T00:40:30.4956547Z PullRequests: write
+2021-06-29T00:40:30.4957153Z RepositoryProjects: write
+2021-06-29T00:40:30.4957808Z SecurityEvents: write
+2021-06-29T00:40:30.4958386Z Statuses: write
+2021-06-29T00:40:30.4958941Z ##[endgroup]
+2021-06-29T00:40:30.4961735Z Prepare workflow directory
+2021-06-29T00:40:30.5538182Z Prepare all required actions
+2021-06-29T00:40:30.5548523Z Getting action download info
+2021-06-29T00:40:30.9433088Z Download action repository 'actions/checkout@v1'
+2021-06-29T00:40:32.6951135Z Download action repository 'actions/setup-java@v1'
+2021-06-29T00:40:32.8550266Z Download action repository 'subosito/flutter-action@v1'
+2021-06-29T00:40:33.0765948Z Download action repository 'actions/upload-artifact@v1'

@@ -1,0 +1,16 @@
+2021-06-29T00:44:34.0298288Z ##[group]Run actions/upload-artifact@v1
+2021-06-29T00:44:34.0298791Z with:
+2021-06-29T00:44:34.0299165Z   name: release-apk
+2021-06-29T00:44:34.0299739Z   path: build/app/outputs/apk/release/app-release.apk
+2021-06-29T00:44:34.0300281Z env:
+2021-06-29T00:44:34.0300748Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:44:34.0301360Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:44:34.0301952Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:44:34.0302640Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64
+2021-06-29T00:44:34.0303407Z   PUB_CACHE: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache
+2021-06-29T00:44:34.0303998Z ##[endgroup]
+2021-06-29T00:44:34.3114025Z Uploading artifact 'release-apk' from '/home/runner/work/ZION-FRONTEND/ZION-FRONTEND/build/app/outputs/apk/release/app-release.apk' for run #10
+2021-06-29T00:44:34.4134760Z Uploading 1 files
+2021-06-29T00:44:36.6301294Z File upload complete.
+2021-06-29T00:44:36.6311150Z Uploaded '19535382' bytes from '/home/runner/work/ZION-FRONTEND/ZION-FRONTEND/build/app/outputs/apk/release/app-release.apk' to server
+2021-06-29T00:44:36.7351591Z Associated artifact release-apk (438083) with run #10

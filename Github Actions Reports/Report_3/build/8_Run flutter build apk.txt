@@ -1,0 +1,25 @@
+2021-06-28T20:07:00.6065905Z ##[group]Run flutter build apk
+2021-06-28T20:07:00.6066503Z [36;1mflutter build apk[0m
+2021-06-28T20:07:00.6107290Z shell: /usr/bin/bash -e {0}
+2021-06-28T20:07:00.6107723Z env:
+2021-06-28T20:07:00.6108246Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T20:07:00.6109066Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T20:07:00.6109636Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T20:07:00.6110334Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64
+2021-06-28T20:07:00.6110990Z   PUB_CACHE: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache
+2021-06-28T20:07:00.6111651Z ##[endgroup]
+2021-06-28T20:07:01.4741509Z 
+2021-06-28T20:07:01.4751868Z Building without sound null safety
+2021-06-28T20:07:01.4753931Z For more information see https://dart.dev/null-safety/unsound-null-safety
+2021-06-28T20:07:01.4754500Z 
+2021-06-28T20:09:24.9287891Z Running Gradle task 'assembleRelease'...                        
+2021-06-28T20:09:24.9304616Z warning: [options] source value 7 is obsolete and will be removed in a future release
+2021-06-28T20:09:24.9305945Z warning: [options] target value 7 is obsolete and will be removed in a future release
+2021-06-28T20:09:24.9307478Z warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+2021-06-28T20:09:25.6836468Z Note: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage-4.2.0/android/src/main/java/com/it_nomads/fluttersecurestorage/FlutterSecureStoragePlugin.java uses or overrides a deprecated API.
+2021-06-28T20:09:25.6838777Z Note: Recompile with -Xlint:deprecation for details.
+2021-06-28T20:09:25.6839500Z 3 warnings
+2021-06-28T20:09:36.2855948Z Calling mockable JAR artifact transform to create file: /home/runner/.gradle/caches/transforms-2/files-2.1/727ac72721260ada6667752e6ad96298/android.jar with input /usr/local/lib/android/sdk/platforms/android-28/android.jar
+2021-06-28T20:09:50.7879034Z Removed unused resources: Binary resource data reduced from 43KB to 36KB: Removed 16%
+2021-06-28T20:10:03.0025585Z Running Gradle task 'assembleRelease'...                          181.5s
+2021-06-28T20:10:03.3149726Z ✓  Built build/app/outputs/flutter-apk/app-release.apk (18.6MB).

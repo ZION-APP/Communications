@@ -1,0 +1,132 @@
+2021-06-28T20:04:00.5787487Z ##[group]Run flutter pub get
+2021-06-28T20:04:00.5788206Z [36;1mflutter pub get[0m
+2021-06-28T20:04:00.5838398Z shell: /usr/bin/bash -e {0}
+2021-06-28T20:04:00.5838861Z env:
+2021-06-28T20:04:00.5839414Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T20:04:00.5840110Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T20:04:00.5840777Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T20:04:00.5841555Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64
+2021-06-28T20:04:00.5842688Z   PUB_CACHE: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache
+2021-06-28T20:04:00.5843369Z ##[endgroup]
+2021-06-28T20:04:01.0950483Z Building flutter tool...
+2021-06-28T20:04:01.2932582Z Resolving dependencies...
+2021-06-28T20:04:02.8814229Z   _fe_analyzer_shared 22.0.0
+2021-06-28T20:04:02.8828195Z   analyzer 1.7.0 (1.7.1 available)
+2021-06-28T20:04:02.8829323Z   archive 3.1.2
+2021-06-28T20:04:02.8830509Z   args 2.1.1
+2021-06-28T20:04:02.8831261Z   async 2.7.0
+2021-06-28T20:04:02.8832051Z   boolean_selector 2.1.0
+2021-06-28T20:04:02.8832972Z   browser_launcher 1.0.0
+2021-06-28T20:04:02.8833691Z   build 2.0.2
+2021-06-28T20:04:02.8834436Z   built_collection 4.3.2 (5.1.0 available)
+2021-06-28T20:04:02.8835223Z   built_value 7.1.0 (8.1.0 available)
+2021-06-28T20:04:02.8835957Z   charcode 1.2.0 (1.3.1 available)
+2021-06-28T20:04:02.8836696Z   checked_yaml 2.0.1
+2021-06-28T20:04:02.8837389Z   cli_util 0.3.0 (0.3.1 available)
+2021-06-28T20:04:02.8838071Z   clock 1.1.0
+2021-06-28T20:04:02.8838803Z   code_builder 3.7.0 (4.0.0 available)
+2021-06-28T20:04:02.8839467Z   collection 1.15.0
+2021-06-28T20:04:02.8840115Z   completion 1.0.0
+2021-06-28T20:04:02.8840806Z   convert 3.0.0 (3.0.1 available)
+2021-06-28T20:04:02.8841437Z   coverage 1.0.3
+2021-06-28T20:04:02.8842019Z   crypto 3.0.1
+2021-06-28T20:04:02.8844059Z   csslib 0.17.0
+2021-06-28T20:04:02.8844456Z   dart_style 2.0.1
+2021-06-28T20:04:02.8844890Z   dds 1.7.6 (2.0.1 available)
+2021-06-28T20:04:02.8845358Z   dwds 11.0.2 (11.1.1 available)
+2021-06-28T20:04:02.8845845Z   fake_async 1.2.0
+2021-06-28T20:04:02.8846255Z   file 6.1.1 (6.1.2 available)
+2021-06-28T20:04:02.8846679Z   file_testing 3.0.0
+2021-06-28T20:04:02.8847110Z   fixnum 0.10.11 (1.0.0 available)
+2021-06-28T20:04:02.8847660Z   flutter_template_images 3.0.0 (4.0.0 available)
+2021-06-28T20:04:02.8848204Z   frontend_server_client 2.1.0
+2021-06-28T20:04:02.8848620Z   glob 2.0.1
+2021-06-28T20:04:02.8848945Z   html 0.15.0
+2021-06-28T20:04:02.8849292Z   http 0.13.3
+2021-06-28T20:04:02.8849686Z   http_multi_server 3.0.1
+2021-06-28T20:04:02.8850089Z   http_parser 4.0.0
+2021-06-28T20:04:02.8850459Z   intl 0.17.0
+2021-06-28T20:04:02.8850771Z   io 1.0.0
+2021-06-28T20:04:02.8851099Z   js 0.6.3
+2021-06-28T20:04:02.8851467Z   json_annotation 4.0.1
+2021-06-28T20:04:02.8851924Z   json_rpc_2 2.2.2 (3.0.1 available)
+2021-06-28T20:04:02.8852337Z   logging 1.0.1
+2021-06-28T20:04:02.8852707Z   matcher 0.12.10
+2021-06-28T20:04:02.8853049Z   meta 1.4.0
+2021-06-28T20:04:02.8853393Z   mime 1.0.0
+2021-06-28T20:04:02.8853792Z   mockito 5.0.7 (5.0.10 available)
+2021-06-28T20:04:02.8854243Z   multicast_dns 0.3.0
+2021-06-28T20:04:02.8854679Z   mustache_template 2.0.0
+2021-06-28T20:04:02.8855140Z   native_stack_traces 0.4.0
+2021-06-28T20:04:02.8855621Z   node_preamble 2.0.0 (2.0.1 available)
+2021-06-28T20:04:02.8856296Z   package_config 2.0.0
+2021-06-28T20:04:02.8856696Z   path 1.8.0
+2021-06-28T20:04:02.8857146Z   pedantic 1.11.0 (1.11.1 available)
+2021-06-28T20:04:02.8857648Z   petitparser 4.2.0
+2021-06-28T20:04:02.8858071Z   platform 3.0.0
+2021-06-28T20:04:02.8858461Z   pool 1.5.0
+2021-06-28T20:04:02.8858826Z   process 4.2.1
+2021-06-28T20:04:02.8859234Z   pub_semver 2.0.0
+2021-06-28T20:04:02.8859922Z   pubspec_parse 1.0.0
+2021-06-28T20:04:02.8860402Z   quiver 2.1.5 (3.0.1 available)
+2021-06-28T20:04:02.8860824Z   shelf 1.1.4
+2021-06-28T20:04:02.8861276Z   shelf_packages_handler 3.0.0
+2021-06-28T20:04:02.8861736Z   shelf_proxy 1.0.0
+2021-06-28T20:04:02.8862153Z   shelf_static 1.0.0
+2021-06-28T20:04:02.8862705Z   shelf_web_socket 1.0.1
+2021-06-28T20:04:02.8863199Z   source_gen 1.0.1 (1.0.2 available)
+2021-06-28T20:04:02.8863699Z   source_map_stack_trace 2.1.0
+2021-06-28T20:04:02.8864160Z   source_maps 0.10.10
+2021-06-28T20:04:02.8864580Z   source_span 1.8.1
+2021-06-28T20:04:02.8865006Z   sse 3.8.3 (4.1.0 available)
+2021-06-28T20:04:02.8865450Z   stack_trace 1.10.0
+2021-06-28T20:04:02.8865871Z   stream_channel 2.1.0
+2021-06-28T20:04:02.8866322Z   string_scanner 1.1.0
+2021-06-28T20:04:02.8866728Z   sync_http 0.3.0
+2021-06-28T20:04:02.8867127Z   term_glyph 1.2.0
+2021-06-28T20:04:02.8867559Z   test 1.17.5 (1.17.9 available)
+2021-06-28T20:04:02.8868156Z   test_api 0.4.0 (0.4.1 available)
+2021-06-28T20:04:02.8868621Z   test_core 0.3.25 (0.3.29 available)
+2021-06-28T20:04:02.8869048Z   typed_data 1.3.0
+2021-06-28T20:04:02.8869400Z   usage 4.0.2
+2021-06-28T20:04:02.8869741Z   uuid 3.0.4
+2021-06-28T20:04:02.8870137Z   vm_service 6.2.0 (7.1.0 available)
+2021-06-28T20:04:02.8870617Z   vm_snapshot_analysis 0.7.0
+2021-06-28T20:04:02.8871306Z   watcher 1.0.0
+2021-06-28T20:04:02.8871727Z   web_socket_channel 2.1.0
+2021-06-28T20:04:02.8872182Z   webdriver 3.0.0
+2021-06-28T20:04:02.8872666Z   webkit_inspection_protocol 1.0.0
+2021-06-28T20:04:02.8873134Z   xml 5.1.2
+2021-06-28T20:04:02.8873474Z   yaml 3.1.0
+2021-06-28T20:04:02.9494441Z No dependencies changed.
+2021-06-28T20:04:02.9515379Z 23 packages have newer versions incompatible with dependency constraints.
+2021-06-28T20:04:02.9516408Z Try `dart pub outdated` for more information.
+2021-06-28T20:04:26.5151288Z 
+2021-06-28T20:04:27.4655948Z   ╔════════════════════════════════════════════════════════════════════════════╗
+2021-06-28T20:04:27.4657159Z   ║                 Welcome to Flutter! - https://flutter.dev                  ║
+2021-06-28T20:04:27.4658040Z   ║                                                                            ║
+2021-06-28T20:04:27.4658925Z   ║ The Flutter tool uses Google Analytics to anonymously report feature usage ║
+2021-06-28T20:04:27.4660066Z   ║ statistics and basic crash reports. This data is used to help improve      ║
+2021-06-28T20:04:27.4660981Z   ║ Flutter tools over time.                                                   ║
+2021-06-28T20:04:27.4661707Z   ║                                                                            ║
+2021-06-28T20:04:27.4662528Z   ║ Flutter tool analytics are not sent on the very first run. To disable      ║
+2021-06-28T20:04:27.4663606Z   ║ reporting, type 'flutter config --no-analytics'. To display the current    ║
+2021-06-28T20:04:27.4664794Z   ║ setting, type 'flutter config'. If you opt out of analytics, an opt-out    ║
+2021-06-28T20:04:27.4665938Z   ║ event will be sent, and then no further information will be sent by the    ║
+2021-06-28T20:04:27.4666919Z   ║ Flutter tool.                                                              ║
+2021-06-28T20:04:27.4667545Z   ║                                                                            ║
+2021-06-28T20:04:27.4668358Z   ║ By downloading the Flutter SDK, you agree to the Google Terms of Service.  ║
+2021-06-28T20:04:27.4669585Z   ║ Note: The Google Privacy Policy describes how data is handled in this      ║
+2021-06-28T20:04:27.4670459Z   ║ service.                                                                   ║
+2021-06-28T20:04:27.4671143Z   ║                                                                            ║
+2021-06-28T20:04:27.4671991Z   ║ Moreover, Flutter includes the Dart SDK, which may send usage metrics and  ║
+2021-06-28T20:04:27.4672926Z   ║ crash reports to Google.                                                   ║
+2021-06-28T20:04:27.4673633Z   ║                                                                            ║
+2021-06-28T20:04:27.4674647Z   ║ Read about data we send with crash reports:                                ║
+2021-06-28T20:04:27.4675690Z   ║ https://flutter.dev/docs/reference/crash-reporting                         ║
+2021-06-28T20:04:27.4676595Z   ║                                                                            ║
+2021-06-28T20:04:27.4677483Z   ║ See Google's privacy policy:                                               ║
+2021-06-28T20:04:27.4679406Z   ║ https://policies.google.com/privacy                                        ║
+2021-06-28T20:04:27.4680682Z   ╚════════════════════════════════════════════════════════════════════════════╝
+2021-06-28T20:04:27.4681006Z 
+2021-06-28T20:04:32.5189118Z Running "flutter pub get" in ZION-FRONTEND...                       5.8s

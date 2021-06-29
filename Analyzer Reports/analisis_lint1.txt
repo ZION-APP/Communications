@@ -1,0 +1,271 @@
+Analyzing ZION-FRONTEND...                                      
+
+   info - Name source files using `lowercase_with_underscores` - lib\Constants.dart:1:1 - file_names
+   info - Prefer const with constant constructors - lib\Constants.dart:14:17 - prefer_const_constructors
+   info - Name source files using `lowercase_with_underscores` - lib\bloc\auth\authBloc.dart:1:1 - file_names
+   info - Prefer final for variable declarations if they are not reassigned - lib\bloc\auth\authBloc.dart:25:29 - prefer_final_locals
+   info - Prefer final for variable declarations if they are not reassigned - lib\bloc\auth\authBloc.dart:29:18 - prefer_final_locals
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\bloc\auth\authBloc.dart:34:27 - argument_type_not_assignable
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\bloc\auth\authBloc.dart:46:27 - argument_type_not_assignable
+   info - Name source files using `lowercase_with_underscores` - lib\bloc\auth\authEvent.dart:1:1 - file_names
+   info - Avoid positional boolean parameters - lib\bloc\auth\authEvent.dart:11:48 - avoid_positional_boolean_parameters
+   info - Don't access members with `this` unless avoiding shadowing - lib\bloc\auth\authEvent.dart:15:30 - unnecessary_this
+   info - Don't access members with `this` unless avoiding shadowing - lib\bloc\auth\authEvent.dart:15:44 - unnecessary_this
+   info - Name source files using `lowercase_with_underscores` - lib\bloc\auth\authState.dart:1:1 - file_names
+   info - Don't access members with `this` unless avoiding shadowing - lib\bloc\auth\authState.dart:23:30 - unnecessary_this
+   info - Don't access members with `this` unless avoiding shadowing - lib\bloc\auth\authState.dart:34:30 - unnecessary_this
+   info - Name source files using `lowercase_with_underscores` - lib\bloc\buzon\buzonBloc.dart:1:1 - file_names
+   info - Prefer final for variable declarations if they are not reassigned - lib\bloc\buzon\buzonBloc.dart:18:20 - prefer_final_locals
+   info - Prefer final for variable declarations if they are not reassigned - lib\bloc\buzon\buzonBloc.dart:21:16 - prefer_final_locals
+   info - Prefer final for variable declarations if they are not reassigned - lib\bloc\buzon\buzonBloc.dart:22:18 - prefer_final_locals
+   info - Prefer const with constant constructors - lib\bloc\buzon\buzonBloc.dart:32:28 - prefer_const_constructors
+   info - Name source files using `lowercase_with_underscores` - lib\bloc\buzon\buzonEvent.dart:1:1 - file_names
+   info - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: GetBuzon.context - lib\bloc\buzon\buzonEvent.dart:6:7 - must_be_immutable
+   info - Name source files using `lowercase_with_underscores` - lib\bloc\buzon\buzonState.dart:1:1 - file_names
+   info - Don't access members with `this` unless avoiding shadowing - lib\bloc\buzon\buzonState.dart:17:30 - unnecessary_this
+   info - Don't access members with `this` unless avoiding shadowing - lib\bloc\buzon\buzonState.dart:28:30 - unnecessary_this
+   info - Prefer declaring const constructors on `@immutable` classes - lib\components\button_default.dart:10:3 - prefer_const_constructors_in_immutables
+   info - 'FlatButton' is deprecated and shouldn't be used. Use TextButton instead. See the migration guide in flutter.dev/go/material-button-migration-guide). This feature was deprecated after v1.26.0-18.0.pre. - lib\components\button_default.dart:18:12 - deprecated_member_use
+   info - Don't access members with `this` unless avoiding shadowing - lib\components\button_default.dart:22:16 - unnecessary_this
+  error - The argument type 'Function' can't be assigned to the parameter type 'void Function()' - lib\components\button_default.dart:23:9 - argument_type_not_assignable
+   info - Don't access members with `this` unless avoiding shadowing - lib\components\button_default.dart:29:22 - unnecessary_this
+   info - Prefer const with constant constructors - lib\components\cargando.dart:7:12 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\components\cargando.dart:8:14 - prefer_const_constructors
+   info - Prefer declaring const constructors on `@immutable` classes - lib\components\input_default.dart:9:3 - prefer_const_constructors_in_immutables
+  error - The argument type 'Function' can't be assigned to the parameter type 'String Function(String)' - lib\components\input_default.dart:18:7 - argument_type_not_assignable
+   info - Don't access members with `this` unless avoiding shadowing - lib\components\input_default.dart:18:18 - unnecessary_this
+   info - Don't access members with `this` unless avoiding shadowing - lib\components\input_default.dart:19:19 - unnecessary_this
+   info - Don't access members with `this` unless avoiding shadowing - lib\components\input_default.dart:23:22 - unnecessary_this
+   info - Prefer const with constant constructors - lib\components\input_default.dart:24:19 - prefer_const_constructors
+   info - Name source files using `lowercase_with_underscores` - lib\models\tipoPersona.dart:1:1 - file_names
+   info - Prefer using lowerCamelCase for constant names - lib\models\tipoPersona.dart:2:3 - constant_identifier_names
+   info - Prefer using lowerCamelCase for constant names - lib\models\tipoPersona.dart:3:3 - constant_identifier_names
+   info - Prefer final for variable declarations if they are not reassigned - lib\routes\router.gr.dart:26:11 - prefer_final_locals
+   info - Prefer const with constant constructors - lib\routes\router.gr.dart:27:49 - prefer_const_constructors
+   info - Prefer final for variable declarations if they are not reassigned - lib\routes\router.gr.dart:31:11 - prefer_final_locals
+   info - Prefer const with constant constructors - lib\routes\router.gr.dart:32:63 - prefer_const_constructors
+   info - Prefer final for variable declarations if they are not reassigned - lib\routes\router.gr.dart:37:11 - prefer_final_locals
+   info - Prefer const with constant constructors - lib\routes\router.gr.dart:38:56 - prefer_const_constructors
+   info - Prefer final for variable declarations if they are not reassigned - lib\routes\router.gr.dart:49:11 - prefer_final_locals
+   info - Prefer const with constant constructors - lib\routes\router.gr.dart:50:55 - prefer_const_constructors
+   info - Prefer final for variable declarations if they are not reassigned - lib\routes\router.gr.dart:55:11 - prefer_final_locals
+   info - Prefer const with constant constructors - lib\routes\router.gr.dart:56:25 - prefer_const_constructors
+   info - Prefer final for variable declarations if they are not reassigned - lib\routes\router.gr.dart:61:11 - prefer_final_locals
+   info - Prefer const with constant constructors - lib\routes\router.gr.dart:62:55 - prefer_const_constructors
+   info - Prefer final for variable declarations if they are not reassigned - lib\routes\router.gr.dart:67:11 - prefer_final_locals
+   info - Prefer const with constant constructors - lib\routes\router.gr.dart:68:52 - prefer_const_constructors
+   info - Prefer declaring const constructors on `@immutable` classes - lib\screens\alicuotas\alicuota.dart:4:3 - prefer_const_constructors_in_immutables
+   info - Avoid unnecessary containers - lib\screens\alicuotas\alicuota.dart:13:12 - avoid_unnecessary_containers
+   info - Prefer const with constant constructors - lib\screens\alicuotas\alicuota.dart:14:14 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\buzon.dart:32:18 - prefer_const_constructors
+   info - Name source files using `lowercase_with_underscores` - lib\screens\buzon\completed\buzonCard.dart:1:1 - file_names
+   info - Prefer declaring const constructors on `@immutable` classes - lib\screens\buzon\completed\buzonCard.dart:7:3 - prefer_const_constructors_in_immutables
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:16:16 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:17:27 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:17:44 - prefer_const_constructors
+   info - Sort child properties last in widget instance creations - lib\screens\buzon\completed\buzonCard.dart:28:21 - sort_child_properties_last
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\buzon\completed\buzonCard.dart:28:35 - unnecessary_this
+   info - Sort child properties last in widget instance creations - lib\screens\buzon\completed\buzonCard.dart:33:21 - sort_child_properties_last
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\buzon\completed\buzonCard.dart:38:32 - unnecessary_this
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\screens\buzon\completed\buzonCard.dart:38:32 - argument_type_not_assignable
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\buzon\completed\buzonCard.dart:39:22 - unnecessary_this
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\screens\buzon\completed\buzonCard.dart:39:22 - argument_type_not_assignable
+   info - Prefer final for variable declarations if they are not reassigned - lib\screens\buzon\completed\buzonCard.dart:49:15 - prefer_final_locals
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\screens\buzon\completed\buzonCard.dart:50:28 - argument_type_not_assignable
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:58:16 - prefer_const_constructors
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\buzon\completed\buzonCard.dart:62:19 - unnecessary_this
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\screens\buzon\completed\buzonCard.dart:62:19 - argument_type_not_assignable
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\buzon\completed\buzonCard.dart:63:24 - unnecessary_this
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\screens\buzon\completed\buzonCard.dart:63:24 - argument_type_not_assignable
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:71:16 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:74:16 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:85:16 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:92:13 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:92:47 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:95:24 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:102:16 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:109:13 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:111:24 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\buzon\completed\buzonCard.dart:114:24 - prefer_const_constructors
+   info - Name source files using `lowercase_with_underscores` - lib\screens\buzon\completed\buzonList.dart:1:1 - file_names
+   info - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: BuzonList.noticias - lib\screens\buzon\completed\buzonList.dart:5:7 - must_be_immutable
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'int' - lib\screens\buzon\completed\buzonList.dart:12:7 - argument_type_not_assignable
+   info - Prefer declaring const constructors on `@immutable` classes - lib\screens\contactanos\contactanos.dart:6:3 - prefer_const_constructors_in_immutables
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:11:22 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:14:18 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:16:20 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:23:21 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:29:26 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:30:37 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:30:54 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:35:25 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:40:25 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:42:34 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:45:25 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:48:25 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:56:26 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:57:37 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:57:54 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:62:25 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:67:25 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:69:34 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:72:25 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:75:25 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:83:26 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:84:37 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:84:54 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:89:25 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:94:25 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:96:34 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:99:25 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\contactanos\contactanos.dart:102:25 - prefer_const_constructors
+   info - Unused import: 'package:auto_route/auto_route.dart' - lib\screens\home\home.dart:1:8 - unused_import
+   info - Unused import: 'package:flutter_bloc/flutter_bloc.dart' - lib\screens\home\home.dart:3:8 - unused_import
+   info - Unused import: 'package:zionApp/bloc/auth/authBloc.dart' - lib\screens\home\home.dart:5:8 - unused_import
+   info - Unused import: 'package:zionApp/bloc/auth/authEvent.dart' - lib\screens\home\home.dart:6:8 - unused_import
+   info - Unused import: 'package:zionApp/screens/perfil/perfil.dart' - lib\screens\home\home.dart:11:8 - unused_import
+   info - Prefer declaring const constructors on `@immutable` classes - lib\screens\home\home.dart:15:3 - prefer_const_constructors_in_immutables
+   info - Private field could be final - lib\screens\home\home.dart:22:16 - prefer_final_fields
+   info - Private field could be final - lib\screens\home\home.dart:24:16 - prefer_final_fields
+   info - Prefer const with constant constructors - lib\screens\home\home.dart:25:5 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\home\home.dart:37:18 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\home\home.dart:54:41 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\home\home.dart:56:21 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\home\home.dart:57:41 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\home\home.dart:58:41 - prefer_const_constructors
+   info - Unused import: 'package:zionApp/screens/contactanos/contactanos.dart' - lib\screens\informacion\informacion.dart:5:8 - unused_import
+   info - Prefer declaring const constructors on `@immutable` classes - lib\screens\informacion\informacion.dart:10:3 - prefer_const_constructors_in_immutables
+   info - Prefer const with constant constructors - lib\screens\informacion\informacion.dart:15:20 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\informacion\informacion.dart:18:16 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\informacion\informacion.dart:20:18 - prefer_const_constructors
+   info - SizedBox for whitespace - lib\screens\informacion\informacion.dart:26:13 - sized_box_for_whitespace
+   info - Avoid unnecessary containers - lib\screens\inversiones\inversiones.dart:11:12 - avoid_unnecessary_containers
+   info - Prefer const with constant constructors - lib\screens\inversiones\inversiones.dart:12:14 - prefer_const_constructors
+   info - Unused import: 'package:zionApp/validator/validator.dart' - lib\screens\login\components.dart\formulario.dart:5:8 - unused_import
+   info - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: FormularioLogin.usuarioController, FormularioLogin.contrasenaController, FormularioLogin.recuerdameCallback, FormularioLogin.recuerdame, FormularioLogin.formKey - lib\screens\login\components.dart\formulario.dart:7:7 - must_be_immutable
+  error - The argument type 'Function' can't be assigned to the parameter type 'void Function(bool)' - lib\screens\login\components.dart\formulario.dart:70:13 - argument_type_not_assignable
+   info - Prefer const with constant constructors - lib\screens\login\components.dart\formulario.dart:71:9 - prefer_const_constructors
+   info - Unused import: 'package:zionApp/components/input_default.dart' - lib\screens\login\login.dart:9:8 - unused_import
+   info - Unused import: 'package:zionApp/validator/validator.dart' - lib\screens\login\login.dart:14:8 - unused_import
+   info - Prefer declaring const constructors on `@immutable` classes - lib\screens\login\login.dart:17:3 - prefer_const_constructors_in_immutables
+   info - The method obtenerUsuarioStorage should have a return type but doesn't - lib\screens\login\login.dart:36:3 - always_declare_return_types
+   info - Type annotate public APIs - lib\screens\login\login.dart:36:3 - type_annotate_public_apis
+   info - Prefer final for variable declarations if they are not reassigned - lib\screens\login\login.dart:39:9 - prefer_final_locals
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\login\login.dart:42:9 - unnecessary_this
+   info - Prefer const with constant constructors - lib\screens\login\login.dart:65:23 - prefer_const_constructors
+   info - DO use curly braces for all flow control structures - lib\screens\login\login.dart:76:11 - curly_braces_in_flow_control_structures
+   info - SizedBox for whitespace - lib\screens\login\login.dart:79:16 - sized_box_for_whitespace
+   info - Avoid redundant argument values - lib\screens\login\login.dart:82:35 - avoid_redundant_argument_values
+   info - SizedBox for whitespace - lib\screens\login\login.dart:93:16 - sized_box_for_whitespace
+   info - SizedBox for whitespace - lib\screens\login\login.dart:112:16 - sized_box_for_whitespace
+   info - Avoid positional boolean parameters - lib\screens\login\login.dart:157:27 - avoid_positional_boolean_parameters
+   info - Name source files using `lowercase_with_underscores` - lib\screens\menu\components.dart\botonCerrarSesion.dart:1:1 - file_names
+   info - Prefer declaring const constructors on `@immutable` classes - lib\screens\menu\components.dart\botonCerrarSesion.dart:8:3 - prefer_const_constructors_in_immutables
+   info - Prefer const with constant constructors - lib\screens\menu\components.dart\botonCerrarSesion.dart:15:15 - prefer_const_constructors
+   info - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: OptionMenuItem.titulo, OptionMenuItem.ruta - lib\screens\menu\components.dart\opcion.dart:6:7 - must_be_immutable
+   info - Prefer const with constant constructors - lib\screens\menu\components.dart\opcion.dart:14:16 - prefer_const_constructors
+   info - Sort child properties last in widget instance creations - lib\screens\menu\components.dart\opcion.dart:33:19 - sort_child_properties_last
+   info - Prefer const with constant constructors - lib\screens\menu\components.dart\opcion.dart:36:17 - prefer_const_constructors
+   info - Avoid redundant argument values - lib\screens\menu\components.dart\opcion.dart:37:25 - avoid_redundant_argument_values
+   info - Sort child properties last in widget instance creations - lib\screens\menu\components.dart\opcion.dart:38:19 - sort_child_properties_last
+   info - Prefer const with constant constructors - lib\screens\menu\components.dart\opcion.dart:38:26 - prefer_const_constructors
+   info - The method _irOpcion should have a return type but doesn't - lib\screens\menu\components.dart\opcion.dart:49:3 - always_declare_return_types
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\menu\components.dart\opcion.dart:50:9 - unnecessary_this
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\menu\components.dart\opcion.dart:51:35 - unnecessary_this
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\menu\components.dart\opcion.dart:55:21 - unnecessary_this
+   info - Prefer const with constant constructors - lib\screens\menu\components.dart\opcion.dart:59:19 - prefer_const_constructors
+   info - Avoid unnecessary containers - lib\screens\menu\menu.dart:20:14 - avoid_unnecessary_containers
+   info - Prefer const with constant constructors - lib\screens\menu\menu.dart:79:21 - prefer_const_constructors
+   info - Unused import: 'package:zionApp/components/button_default.dart' - lib\screens\misionyvision\misionyvision.dart:3:8 - unused_import
+   info - Unused import: 'package:zionApp/routes/router.gr.dart' - lib\screens\misionyvision\misionyvision.dart:4:8 - unused_import
+   info - Unused import: 'package:auto_route/auto_route.dart' - lib\screens\misionyvision\misionyvision.dart:5:8 - unused_import
+   info - Prefer declaring const constructors on `@immutable` classes - lib\screens\misionyvision\misionyvision.dart:9:3 - prefer_const_constructors_in_immutables
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:14:22 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:17:18 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:19:20 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:41:17 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:43:26 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:44:37 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:44:54 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:45:26 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:47:28 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:63:17 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:65:26 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:66:37 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:66:54 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:67:26 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\misionyvision\misionyvision.dart:69:28 - prefer_const_constructors
+   info - Name source files using `lowercase_with_underscores` - lib\screens\perfil\components\botonCambiarContrasena.dart:1:1 - file_names
+   info - Unused import: 'package:zionApp/components/button_default.dart' - lib\screens\perfil\components\botonCambiarContrasena.dart:3:8 - unused_import
+   info - Prefer const with constant constructors - lib\screens\perfil\components\botonCambiarContrasena.dart:18:15 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\perfil\components\botonCambiarContrasena.dart:26:16 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\perfil\components\botonCambiarContrasena.dart:28:18 - prefer_const_constructors
+   info - Prefer final for variable declarations if they are not reassigned - lib\screens\perfil\components\botonCambiarContrasena.dart:35:27 - prefer_final_locals
+   info - Prefer final for variable declarations if they are not reassigned - lib\screens\perfil\components\botonCambiarContrasena.dart:36:27 - prefer_final_locals
+   info - Prefer const with constant constructors - lib\screens\perfil\components\botonCambiarContrasena.dart:71:27 - prefer_const_constructors
+  error - The operands of the operator '&&' must be assignable to 'bool' - lib\screens\perfil\components\botonCambiarContrasena.dart:83:32 - non_bool_operand
+   info - Avoid `print` calls in production code - lib\screens\perfil\components\botonCambiarContrasena.dart:83:40 - avoid_print
+   info - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: FotoSection.usuario - lib\screens\perfil\components\foto.dart:5:7 - must_be_immutable
+   info - Don't put any logic in createState - lib\screens\perfil\components\foto.dart:11:7 - no_logic_in_create_state
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\perfil\components\foto.dart:11:25 - unnecessary_this
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\screens\perfil\components\foto.dart:11:25 - argument_type_not_assignable
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\perfil\components\foto.dart:30:45 - unnecessary_this
+   info - Sort child properties last in widget instance creations - lib\screens\perfil\components\foto.dart:32:15 - sort_child_properties_last
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\perfil\components\foto.dart:35:19 - unnecessary_this
+   info - SizedBox for whitespace - lib\screens\perfil\components\foto.dart:40:11 - sized_box_for_whitespace
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\screens\perfil\components\foto.dart:43:15 - argument_type_not_assignable
+   info - Prefer const with constant constructors - lib\screens\perfil\components\foto.dart:63:17 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\perfil\components\foto.dart:66:22 - prefer_const_constructors
+   info - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: InfoPerfil.usuario - lib\screens\perfil\components\info.dart:5:7 - must_be_immutable
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\screens\perfil\components\info.dart:20:28 - argument_type_not_assignable
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\screens\perfil\components\info.dart:22:17 - argument_type_not_assignable
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\screens\perfil\components\info.dart:24:37 - argument_type_not_assignable
+  error - The argument type 'dynamic' can't be assigned to the parameter type 'String' - lib\screens\perfil\components\info.dart:26:17 - argument_type_not_assignable
+   info - The value of the local variable 'bottom' isn't used - lib\screens\perfil\perfil.dart:28:11 - unused_local_variable
+   info - Prefer const with constant constructors - lib\screens\perfil\perfil.dart:32:18 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\perfil\perfil.dart:34:20 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\perfil\perfil.dart:54:32 - prefer_const_constructors
+   info - The method _obtenerUsuario should have a return type but doesn't - lib\screens\perfil\perfil.dart:61:3 - always_declare_return_types
+   info - Prefer final for variable declarations if they are not reassigned - lib\screens\perfil\perfil.dart:62:12 - prefer_final_locals
+   info - Don't access members with `this` unless avoiding shadowing - lib\screens\perfil\perfil.dart:64:7 - unnecessary_this
+   info - Unused import: 'package:zionApp/Constants.dart' - lib\screens\register\components.dart\formulario.dart:2:8 - unused_import
+   info - This class (or a class that this class inherits from) is marked as '@immutable', but one or more of its instance fields aren't final: FormularioRegister.usuarioController, FormularioRegister.cedulaController, FormularioRegister.tipoPersona, FormularioRegister.correoController, FormularioRegister.contrasenaController, FormularioRegister.contrasenaConfirmController, FormularioRegister.formKey - lib\screens\register\components.dart\formulario.dart:8:7 - must_be_immutable
+   info - Prefer const with constant constructors - lib\screens\register\components.dart\formulario.dart:74:25 - prefer_const_constructors
+   info - Prefer const literals as parameters of constructors on @immutable classes - lib\screens\register\components.dart\formulario.dart:76:26 - prefer_const_literals_to_create_immutables
+   info - Prefer const with constant constructors - lib\screens\register\components.dart\formulario.dart:77:21 - prefer_const_constructors
+   info - Sort child properties last in widget instance creations - lib\screens\register\components.dart\formulario.dart:78:23 - sort_child_properties_last
+   info - Prefer const with constant constructors - lib\screens\register\components.dart\formulario.dart:78:30 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\register\components.dart\formulario.dart:81:21 - prefer_const_constructors
+   info - Sort child properties last in widget instance creations - lib\screens\register\components.dart\formulario.dart:82:23 - sort_child_properties_last
+   info - Prefer const with constant constructors - lib\screens\register\components.dart\formulario.dart:82:30 - prefer_const_constructors
+  error - A value of type 'dynamic' can't be assigned to a variable of type 'TipoPersona' - lib\screens\register\components.dart\formulario.dart:88:43 - invalid_assignment
+   info - Unused import: 'package:auto_route/auto_route.dart' - lib\screens\register\register.dart:1:8 - unused_import
+   info - Unused import: 'package:flutter_bloc/flutter_bloc.dart' - lib\screens\register\register.dart:2:8 - unused_import
+   info - Unused import: 'package:zionApp/components/cargando.dart' - lib\screens\register\register.dart:5:8 - unused_import
+   info - Unused import: 'package:zionApp/routes/router.gr.dart' - lib\screens\register\register.dart:7:8 - unused_import
+   info - Prefer declaring const constructors on `@immutable` classes - lib\screens\register\register.dart:13:3 - prefer_const_constructors_in_immutables
+   info - The value of the field '_formKey' isn't used - lib\screens\register\register.dart:20:9 - unused_field
+   info - Prefer const with constant constructors - lib\screens\register\register.dart:34:20 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\register\register.dart:37:16 - prefer_const_constructors
+   info - Prefer const with constant constructors - lib\screens\register\register.dart:39:18 - prefer_const_constructors
+   info - SizedBox for whitespace - lib\screens\register\register.dart:45:13 - sized_box_for_whitespace
+   info - Avoid redundant argument values - lib\screens\register\register.dart:48:31 - avoid_redundant_argument_values
+   info - Avoid redundant argument values - lib\screens\register\register.dart:69:15 - avoid_redundant_argument_values
+   info - SizedBox for whitespace - lib\screens\register\register.dart:70:16 - sized_box_for_whitespace
+   info - Unnecessary parenthesis can be removed - lib\screens\register\register.dart:76:27 - unnecessary_parenthesis
+   info - Avoid `print` calls in production code - lib\screens\register\register.dart:76:29 - avoid_print
+   info - Use interpolation to compose strings and values - lib\screens\register\register.dart:76:35 - prefer_interpolation_to_compose_strings
+   info - Name source files using `lowercase_with_underscores` - lib\sizeConfig.dart:1:1 - file_names
+   info - Prefer final for variable declarations if they are not reassigned - lib\sizeConfig.dart:18:10 - prefer_final_locals
+   info - Prefer final for variable declarations if they are not reassigned - lib\sizeConfig.dart:23:10 - prefer_final_locals
+warning - This function has a return type of 'String', but doesn't end with a return statement - lib\validator\validator.dart:6:17 - missing_return
+   info - Unnecessary parenthesis can be removed - lib\validator\validator.dart:9:15 - unnecessary_parenthesis
+   info - Unnecessary raw string - lib\validator\validator.dart:9:23 - unnecessary_raw_strings
+   info - Unnecessary parenthesis can be removed - lib\validator\validator.dart:11:15 - unnecessary_parenthesis
+   info - Unnecessary raw string - lib\validator\validator.dart:11:23 - unnecessary_raw_strings
+   info - Unnecessary parenthesis can be removed - lib\validator\validator.dart:13:15 - unnecessary_parenthesis
+   info - Unnecessary raw string - lib\validator\validator.dart:13:23 - unnecessary_raw_strings
+   info - Use `lowercase_with_underscores` for package names - pubspec.yaml:1:7 - package_names
+   info - Sort pub dependencies - pubspec.yaml:25:3 - sort_pub_dependencies
+   info - Sort pub dependencies - pubspec.yaml:40:3 - sort_pub_dependencies
+

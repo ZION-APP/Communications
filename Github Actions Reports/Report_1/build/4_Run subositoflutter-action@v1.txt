@@ -1,0 +1,9 @@
+2021-06-28T19:57:14.6460682Z ##[group]Run subosito/flutter-action@v1
+2021-06-28T19:57:14.6461639Z with:
+2021-06-28T19:57:14.6462236Z   channel: beta
+2021-06-28T19:57:14.6462891Z env:
+2021-06-28T19:57:14.6463680Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T19:57:14.6464783Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T19:57:14.6465876Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T19:57:14.6466857Z ##[endgroup]
+2021-06-28T19:57:18.1987262Z [command]/usr/bin/tar x --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/temp_1080823751 -f /home/runner/work/_temp/e897ac09-46db-4faf-abaf-2c91156038e9

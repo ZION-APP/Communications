@@ -1,0 +1,33 @@
+2021-06-28T19:58:20.7172331Z ##[group]Run flutter analyze .
+2021-06-28T19:58:20.7172950Z [36;1mflutter analyze .[0m
+2021-06-28T19:58:20.7213676Z shell: /usr/bin/bash -e {0}
+2021-06-28T19:58:20.7214045Z env:
+2021-06-28T19:58:20.7214480Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T19:58:20.7215044Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T19:58:20.7215599Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-28T19:58:20.7216406Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64
+2021-06-28T19:58:20.7217240Z   PUB_CACHE: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache
+2021-06-28T19:58:20.7217859Z ##[endgroup]
+2021-06-28T19:58:38.0476338Z Analyzing ZION-FRONTEND...                                      
+2021-06-28T19:58:38.0488410Z 
+2021-06-28T19:58:38.0538972Z    info • Sort directive sections alphabetically • lib/bloc/auth/auth_bloc.dart:8:1 • directives_ordering
+2021-06-28T19:58:38.0566875Z    info • Sort directive sections alphabetically • lib/bloc/buzon/buzon_bloc.dart:4:1 • directives_ordering
+2021-06-28T19:58:38.0577157Z    info • Sort directive sections alphabetically • lib/bloc/buzon/buzon_bloc.dart:7:1 • directives_ordering
+2021-06-28T19:58:38.0578789Z    info • Sort directive sections alphabetically • lib/main.dart:3:1 • directives_ordering
+2021-06-28T19:58:38.0580405Z    info • Prefer final for variable declarations if they are not reassigned • lib/routes/router.gr.dart:31:11 • prefer_final_locals
+2021-06-28T19:58:38.0582061Z    info • Prefer const with constant constructors • lib/routes/router.gr.dart:32:63 • prefer_const_constructors
+2021-06-28T19:58:38.0583781Z    info • Sort directive sections alphabetically • lib/screens/cuenta_bancaria/components.dart/formulario.dart:4:1 • directives_ordering
+2021-06-28T19:58:38.0585637Z    info • Sort directive sections alphabetically • lib/screens/cuenta_bancaria/cuenta_bancaria.dart:5:1 • directives_ordering
+2021-06-28T19:58:38.0587545Z    info • Sort directive sections alphabetically • lib/screens/goal_creation/components.dart/formulario.dart:4:1 • directives_ordering
+2021-06-28T19:58:38.0589209Z    info • Sort directive sections alphabetically • lib/screens/informacion/informacion.dart:3:1 • directives_ordering
+2021-06-28T19:58:38.0590749Z    info • Sort directive sections alphabetically • lib/screens/informacion/informacion.dart:6:1 • directives_ordering
+2021-06-28T19:58:38.0592329Z    info • Sort directive sections alphabetically • lib/screens/login/components.dart/formulario.dart:3:1 • directives_ordering
+2021-06-28T19:58:38.0593777Z    info • Sort directive sections alphabetically • lib/screens/login/login.dart:4:1 • directives_ordering
+2021-06-28T19:58:38.0595121Z    info • Sort directive sections alphabetically • lib/screens/login/login.dart:12:1 • directives_ordering
+2021-06-28T19:58:38.0596648Z    info • Sort directive sections alphabetically • lib/screens/perfil/components/boton_cambiar_contrasena.dart:4:1 • directives_ordering
+2021-06-28T19:58:38.0609232Z    info • Sort directive sections alphabetically • lib/screens/perfil/perfil.dart:5:1 • directives_ordering
+2021-06-28T19:58:38.0611325Z    info • Sort directive sections alphabetically • lib/screens/register/components.dart/formulario.dart:4:1 • directives_ordering
+2021-06-28T19:58:38.0613027Z    info • Sort directive sections alphabetically • lib/screens/register/register.dart:4:1 • directives_ordering
+2021-06-28T19:58:38.0643504Z 
+2021-06-28T19:58:38.0814669Z 18 issues found. (ran in 16.1s)
+2021-06-28T19:58:38.1019988Z ##[error]Process completed with exit code 1.

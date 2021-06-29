@@ -1,0 +1,733 @@
+2021-06-29T00:40:24.8287108Z Found online and idle hosted runner(s) in the current repository's organization account that matches the required labels: 'ubuntu-latest'
+2021-06-29T00:40:24.8287161Z Waiting for a hosted runner in 'organization' to pick this job...
+2021-06-29T00:40:30.4917472Z Current runner version: '2.278.0'
+2021-06-29T00:40:30.4942061Z ##[group]Operating System
+2021-06-29T00:40:30.4942915Z Ubuntu
+2021-06-29T00:40:30.4943400Z 20.04.2
+2021-06-29T00:40:30.4943807Z LTS
+2021-06-29T00:40:30.4944295Z ##[endgroup]
+2021-06-29T00:40:30.4944831Z ##[group]Virtual Environment
+2021-06-29T00:40:30.4945526Z Environment: ubuntu-20.04
+2021-06-29T00:40:30.4946066Z Version: 20210614.1
+2021-06-29T00:40:30.4947062Z Included Software: https://github.com/actions/virtual-environments/blob/ubuntu20/20210614.1/images/linux/Ubuntu2004-README.md
+2021-06-29T00:40:30.4948387Z Image Release: https://github.com/actions/virtual-environments/releases/tag/ubuntu20%2F20210614.1
+2021-06-29T00:40:30.4949224Z ##[endgroup]
+2021-06-29T00:40:30.4951118Z ##[group]GITHUB_TOKEN Permissions
+2021-06-29T00:40:30.4952254Z Actions: write
+2021-06-29T00:40:30.4952731Z Checks: write
+2021-06-29T00:40:30.4953266Z Contents: write
+2021-06-29T00:40:30.4953762Z Deployments: write
+2021-06-29T00:40:30.4954414Z Discussions: write
+2021-06-29T00:40:30.4954973Z Issues: write
+2021-06-29T00:40:30.4955520Z Metadata: read
+2021-06-29T00:40:30.4955997Z Packages: write
+2021-06-29T00:40:30.4956555Z PullRequests: write
+2021-06-29T00:40:30.4957158Z RepositoryProjects: write
+2021-06-29T00:40:30.4957814Z SecurityEvents: write
+2021-06-29T00:40:30.4958393Z Statuses: write
+2021-06-29T00:40:30.4958951Z ##[endgroup]
+2021-06-29T00:40:30.4961762Z Prepare workflow directory
+2021-06-29T00:40:30.5538236Z Prepare all required actions
+2021-06-29T00:40:30.5548566Z Getting action download info
+2021-06-29T00:40:30.9433167Z Download action repository 'actions/checkout@v1'
+2021-06-29T00:40:32.6951166Z Download action repository 'actions/setup-java@v1'
+2021-06-29T00:40:32.8550296Z Download action repository 'subosito/flutter-action@v1'
+2021-06-29T00:40:33.0766051Z Download action repository 'actions/upload-artifact@v1'
+2021-06-29T00:40:33.3064481Z ##[group]Run actions/checkout@v1
+2021-06-29T00:40:33.3065095Z with:
+2021-06-29T00:40:33.3065501Z   clean: true
+2021-06-29T00:40:33.3065930Z ##[endgroup]
+2021-06-29T00:40:33.6242298Z Syncing repository: ZION-APP/ZION-FRONTEND
+2021-06-29T00:40:33.6388120Z ##[command]git version
+2021-06-29T00:40:33.6689651Z git version 2.32.0
+2021-06-29T00:40:33.6771542Z ##[command]git lfs version
+2021-06-29T00:40:33.7334154Z git-lfs/2.13.3 (GitHub; linux amd64; go 1.16.2)
+2021-06-29T00:40:34.2428682Z ##[command]git init "/home/runner/work/ZION-FRONTEND/ZION-FRONTEND"
+2021-06-29T00:40:34.2429697Z hint: Using 'master' as the name for the initial branch. This default branch name
+2021-06-29T00:40:34.2430462Z hint: is subject to change. To configure the initial branch name to use in all
+2021-06-29T00:40:34.2431238Z hint: of your new repositories, which will suppress this warning, call:
+2021-06-29T00:40:34.2431778Z hint: 
+2021-06-29T00:40:34.2432420Z hint: 	git config --global init.defaultBranch <name>
+2021-06-29T00:40:34.2432936Z hint: 
+2021-06-29T00:40:34.2433604Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2021-06-29T00:40:34.2434538Z hint: 'development'. The just-created branch can be renamed via this command:
+2021-06-29T00:40:34.2435112Z hint: 
+2021-06-29T00:40:34.2435586Z hint: 	git branch -m <name>
+2021-06-29T00:40:34.2436455Z Initialized empty Git repository in /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/.git/
+2021-06-29T00:40:34.2437602Z ##[command]git remote add origin https://github.com/ZION-APP/ZION-FRONTEND
+2021-06-29T00:40:34.2438270Z ##[command]git config gc.auto 0
+2021-06-29T00:40:34.2439338Z ##[command]git config --get-all http.https://github.com/ZION-APP/ZION-FRONTEND.extraheader
+2021-06-29T00:40:34.2443716Z ##[command]git -c http.extraheader="AUTHORIZATION: basic ***" fetch --tags --prune --progress --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/*
+2021-06-29T00:40:34.2444801Z remote: Enumerating objects: 679, done.        
+2021-06-29T00:40:34.2445353Z remote: Counting objects:   0% (1/679)        
+2021-06-29T00:40:34.2445833Z remote: Counting objects:   1% (7/679)        
+2021-06-29T00:40:34.2446488Z remote: Counting objects:   2% (14/679)        
+2021-06-29T00:40:34.2446967Z remote: Counting objects:   3% (21/679)        
+2021-06-29T00:40:34.2447455Z remote: Counting objects:   4% (28/679)        
+2021-06-29T00:40:34.2447932Z remote: Counting objects:   5% (34/679)        
+2021-06-29T00:40:34.2448418Z remote: Counting objects:   6% (41/679)        
+2021-06-29T00:40:34.2448914Z remote: Counting objects:   7% (48/679)        
+2021-06-29T00:40:34.2449394Z remote: Counting objects:   8% (55/679)        
+2021-06-29T00:40:34.2449884Z remote: Counting objects:   9% (62/679)        
+2021-06-29T00:40:34.2450363Z remote: Counting objects:  10% (68/679)        
+2021-06-29T00:40:34.2450852Z remote: Counting objects:  11% (75/679)        
+2021-06-29T00:40:34.2451326Z remote: Counting objects:  12% (82/679)        
+2021-06-29T00:40:34.2451816Z remote: Counting objects:  13% (89/679)        
+2021-06-29T00:40:34.2452290Z remote: Counting objects:  14% (96/679)        
+2021-06-29T00:40:34.2452781Z remote: Counting objects:  15% (102/679)        
+2021-06-29T00:40:34.2453381Z remote: Counting objects:  16% (109/679)        
+2021-06-29T00:40:34.2453861Z remote: Counting objects:  17% (116/679)        
+2021-06-29T00:40:34.2454349Z remote: Counting objects:  18% (123/679)        
+2021-06-29T00:40:34.2454825Z remote: Counting objects:  19% (130/679)        
+2021-06-29T00:40:34.2455311Z remote: Counting objects:  20% (136/679)        
+2021-06-29T00:40:34.2455790Z remote: Counting objects:  21% (143/679)        
+2021-06-29T00:40:34.2456282Z remote: Counting objects:  22% (150/679)        
+2021-06-29T00:40:34.2456984Z remote: Counting objects:  23% (157/679)        
+2021-06-29T00:40:34.2457460Z remote: Counting objects:  24% (163/679)        
+2021-06-29T00:40:34.2457950Z remote: Counting objects:  25% (170/679)        
+2021-06-29T00:40:34.2458539Z remote: Counting objects:  26% (177/679)        
+2021-06-29T00:40:34.2459039Z remote: Counting objects:  27% (184/679)        
+2021-06-29T00:40:34.2459515Z remote: Counting objects:  28% (191/679)        
+2021-06-29T00:40:34.2460008Z remote: Counting objects:  29% (197/679)        
+2021-06-29T00:40:34.2460484Z remote: Counting objects:  30% (204/679)        
+2021-06-29T00:40:34.2460976Z remote: Counting objects:  31% (211/679)        
+2021-06-29T00:40:34.2461452Z remote: Counting objects:  32% (218/679)        
+2021-06-29T00:40:34.2461940Z remote: Counting objects:  33% (225/679)        
+2021-06-29T00:40:34.2462427Z remote: Counting objects:  34% (231/679)        
+2021-06-29T00:40:34.2462901Z remote: Counting objects:  35% (238/679)        
+2021-06-29T00:40:34.2463396Z remote: Counting objects:  36% (245/679)        
+2021-06-29T00:40:34.2463874Z remote: Counting objects:  37% (252/679)        
+2021-06-29T00:40:34.2464365Z remote: Counting objects:  38% (259/679)        
+2021-06-29T00:40:34.2464843Z remote: Counting objects:  39% (265/679)        
+2021-06-29T00:40:34.2465328Z remote: Counting objects:  40% (272/679)        
+2021-06-29T00:40:34.2465810Z remote: Counting objects:  41% (279/679)        
+2021-06-29T00:40:34.2466304Z remote: Counting objects:  42% (286/679)        
+2021-06-29T00:40:34.2466790Z remote: Counting objects:  43% (292/679)        
+2021-06-29T00:40:34.2467268Z remote: Counting objects:  44% (299/679)        
+2021-06-29T00:40:34.2467755Z remote: Counting objects:  45% (306/679)        
+2021-06-29T00:40:34.2468227Z remote: Counting objects:  46% (313/679)        
+2021-06-29T00:40:34.2468711Z remote: Counting objects:  47% (320/679)        
+2021-06-29T00:40:34.2469189Z remote: Counting objects:  48% (326/679)        
+2021-06-29T00:40:34.2469675Z remote: Counting objects:  49% (333/679)        
+2021-06-29T00:40:34.2470149Z remote: Counting objects:  50% (340/679)        
+2021-06-29T00:40:34.2470738Z remote: Counting objects:  51% (347/679)        
+2021-06-29T00:40:34.2471229Z remote: Counting objects:  52% (354/679)        
+2021-06-29T00:40:34.2471707Z remote: Counting objects:  53% (360/679)        
+2021-06-29T00:40:34.2472191Z remote: Counting objects:  54% (367/679)        
+2021-06-29T00:40:34.2472747Z remote: Counting objects:  55% (374/679)        
+2021-06-29T00:40:34.2473234Z remote: Counting objects:  56% (381/679)        
+2021-06-29T00:40:34.2473708Z remote: Counting objects:  57% (388/679)        
+2021-06-29T00:40:34.2474197Z remote: Counting objects:  58% (394/679)        
+2021-06-29T00:40:34.2474672Z remote: Counting objects:  59% (401/679)        
+2021-06-29T00:40:34.2475161Z remote: Counting objects:  60% (408/679)        
+2021-06-29T00:40:34.2475647Z remote: Counting objects:  61% (415/679)        
+2021-06-29T00:40:34.2476123Z remote: Counting objects:  62% (421/679)        
+2021-06-29T00:40:34.2476612Z remote: Counting objects:  63% (428/679)        
+2021-06-29T00:40:34.2477087Z remote: Counting objects:  64% (435/679)        
+2021-06-29T00:40:34.2477576Z remote: Counting objects:  65% (442/679)        
+2021-06-29T00:40:34.2478057Z remote: Counting objects:  66% (449/679)        
+2021-06-29T00:40:34.2478548Z remote: Counting objects:  67% (455/679)        
+2021-06-29T00:40:34.2479027Z remote: Counting objects:  68% (462/679)        
+2021-06-29T00:40:34.2479512Z remote: Counting objects:  69% (469/679)        
+2021-06-29T00:40:34.2479985Z remote: Counting objects:  70% (476/679)        
+2021-06-29T00:40:34.2480478Z remote: Counting objects:  71% (483/679)        
+2021-06-29T00:40:34.2480965Z remote: Counting objects:  72% (489/679)        
+2021-06-29T00:40:34.2481481Z remote: Counting objects:  73% (496/679)        
+2021-06-29T00:40:34.2481976Z remote: Counting objects:  74% (503/679)        
+2021-06-29T00:40:34.2482450Z remote: Counting objects:  75% (510/679)        
+2021-06-29T00:40:34.2482938Z remote: Counting objects:  76% (517/679)        
+2021-06-29T00:40:34.2483418Z remote: Counting objects:  77% (523/679)        
+2021-06-29T00:40:34.2483908Z remote: Counting objects:  78% (530/679)        
+2021-06-29T00:40:34.2484442Z remote: Counting objects:  79% (537/679)        
+2021-06-29T00:40:34.2484952Z remote: Counting objects:  80% (544/679)        
+2021-06-29T00:40:34.2485445Z remote: Counting objects:  81% (550/679)        
+2021-06-29T00:40:34.2485920Z remote: Counting objects:  82% (557/679)        
+2021-06-29T00:40:34.2486408Z remote: Counting objects:  83% (564/679)        
+2021-06-29T00:40:34.2486888Z remote: Counting objects:  84% (571/679)        
+2021-06-29T00:40:34.2487377Z remote: Counting objects:  85% (578/679)        
+2021-06-29T00:40:34.2487864Z remote: Counting objects:  86% (584/679)        
+2021-06-29T00:40:34.2488339Z remote: Counting objects:  87% (591/679)        
+2021-06-29T00:40:34.2488828Z remote: Counting objects:  88% (598/679)        
+2021-06-29T00:40:34.2489304Z remote: Counting objects:  89% (605/679)        
+2021-06-29T00:40:34.2489789Z remote: Counting objects:  90% (612/679)        
+2021-06-29T00:40:34.2490265Z remote: Counting objects:  91% (618/679)        
+2021-06-29T00:40:34.2490757Z remote: Counting objects:  92% (625/679)        
+2021-06-29T00:40:34.2491235Z remote: Counting objects:  93% (632/679)        
+2021-06-29T00:40:34.2491726Z remote: Counting objects:  94% (639/679)        
+2021-06-29T00:40:34.2492220Z remote: Counting objects:  95% (646/679)        
+2021-06-29T00:40:34.2492697Z remote: Counting objects:  96% (652/679)        
+2021-06-29T00:40:34.2493188Z remote: Counting objects:  97% (659/679)        
+2021-06-29T00:40:34.2493665Z remote: Counting objects:  98% (666/679)        
+2021-06-29T00:40:34.2494153Z remote: Counting objects:  99% (673/679)        
+2021-06-29T00:40:34.2494631Z remote: Counting objects: 100% (679/679)        
+2021-06-29T00:40:34.2495138Z remote: Counting objects: 100% (679/679), done.        
+2021-06-29T00:40:34.2495663Z remote: Compressing objects:   0% (1/363)        
+2021-06-29T00:40:34.2496198Z remote: Compressing objects:   1% (4/363)        
+2021-06-29T00:40:34.2496991Z remote: Compressing objects:   2% (8/363)        
+2021-06-29T00:40:34.2497521Z remote: Compressing objects:   3% (11/363)        
+2021-06-29T00:40:34.2498060Z remote: Compressing objects:   4% (15/363)        
+2021-06-29T00:40:34.2498586Z remote: Compressing objects:   5% (19/363)        
+2021-06-29T00:40:34.2499206Z remote: Compressing objects:   6% (22/363)        
+2021-06-29T00:40:34.2499732Z remote: Compressing objects:   7% (26/363)        
+2021-06-29T00:40:34.2500270Z remote: Compressing objects:   8% (30/363)        
+2021-06-29T00:40:34.2500792Z remote: Compressing objects:   9% (33/363)        
+2021-06-29T00:40:34.2501331Z remote: Compressing objects:  10% (37/363)        
+2021-06-29T00:40:34.2501867Z remote: Compressing objects:  11% (40/363)        
+2021-06-29T00:40:34.2502386Z remote: Compressing objects:  12% (44/363)        
+2021-06-29T00:40:34.2502925Z remote: Compressing objects:  13% (48/363)        
+2021-06-29T00:40:34.2503445Z remote: Compressing objects:  14% (51/363)        
+2021-06-29T00:40:34.2503978Z remote: Compressing objects:  15% (55/363)        
+2021-06-29T00:40:34.2504502Z remote: Compressing objects:  16% (59/363)        
+2021-06-29T00:40:34.2505036Z remote: Compressing objects:  17% (62/363)        
+2021-06-29T00:40:34.2505561Z remote: Compressing objects:  18% (66/363)        
+2021-06-29T00:40:34.2506096Z remote: Compressing objects:  19% (69/363)        
+2021-06-29T00:40:34.2506629Z remote: Compressing objects:  20% (73/363)        
+2021-06-29T00:40:34.2507148Z remote: Compressing objects:  21% (77/363)        
+2021-06-29T00:40:34.2507686Z remote: Compressing objects:  22% (80/363)        
+2021-06-29T00:40:34.2508208Z remote: Compressing objects:  23% (84/363)        
+2021-06-29T00:40:34.2508741Z remote: Compressing objects:  24% (88/363)        
+2021-06-29T00:40:34.2509261Z remote: Compressing objects:  25% (91/363)        
+2021-06-29T00:40:34.2509794Z remote: Compressing objects:  26% (95/363)        
+2021-06-29T00:40:34.2510317Z remote: Compressing objects:  27% (99/363)        
+2021-06-29T00:40:34.2510932Z remote: Compressing objects:  28% (102/363)        
+2021-06-29T00:40:34.2511479Z remote: Compressing objects:  29% (106/363)        
+2021-06-29T00:40:34.2512003Z remote: Compressing objects:  30% (109/363)        
+2021-06-29T00:40:34.2512546Z remote: Compressing objects:  31% (113/363)        
+2021-06-29T00:40:34.2513074Z remote: Compressing objects:  32% (117/363)        
+2021-06-29T00:40:34.2513611Z remote: Compressing objects:  33% (120/363)        
+2021-06-29T00:40:34.2514129Z remote: Compressing objects:  34% (124/363)        
+2021-06-29T00:40:34.2514670Z remote: Compressing objects:  35% (128/363)        
+2021-06-29T00:40:34.2515195Z remote: Compressing objects:  36% (131/363)        
+2021-06-29T00:40:34.2515732Z remote: Compressing objects:  37% (135/363)        
+2021-06-29T00:40:34.2516272Z remote: Compressing objects:  38% (138/363)        
+2021-06-29T00:40:34.2516793Z remote: Compressing objects:  39% (142/363)        
+2021-06-29T00:40:34.2517329Z remote: Compressing objects:  40% (146/363)        
+2021-06-29T00:40:34.2517856Z remote: Compressing objects:  41% (149/363)        
+2021-06-29T00:40:34.2518394Z remote: Compressing objects:  42% (153/363)        
+2021-06-29T00:40:34.2518914Z remote: Compressing objects:  43% (157/363)        
+2021-06-29T00:40:34.2519456Z remote: Compressing objects:  44% (160/363)        
+2021-06-29T00:40:34.2519985Z remote: Compressing objects:  45% (164/363)        
+2021-06-29T00:40:34.2520522Z remote: Compressing objects:  46% (167/363)        
+2021-06-29T00:40:34.2521060Z remote: Compressing objects:  47% (171/363)        
+2021-06-29T00:40:34.2521577Z remote: Compressing objects:  48% (175/363)        
+2021-06-29T00:40:34.2522119Z remote: Compressing objects:  49% (178/363)        
+2021-06-29T00:40:34.2522645Z remote: Compressing objects:  50% (182/363)        
+2021-06-29T00:40:34.2523181Z remote: Compressing objects:  51% (186/363)        
+2021-06-29T00:40:34.2523702Z remote: Compressing objects:  52% (189/363)        
+2021-06-29T00:40:34.2524240Z remote: Compressing objects:  53% (193/363)        
+2021-06-29T00:40:34.2524767Z remote: Compressing objects:  54% (197/363)        
+2021-06-29T00:40:34.2525301Z remote: Compressing objects:  55% (200/363)        
+2021-06-29T00:40:34.2525887Z remote: Compressing objects:  56% (204/363)        
+2021-06-29T00:40:34.2526406Z remote: Compressing objects:  57% (207/363)        
+2021-06-29T00:40:34.2526944Z remote: Compressing objects:  58% (211/363)        
+2021-06-29T00:40:34.2527466Z remote: Compressing objects:  59% (215/363)        
+2021-06-29T00:40:34.2527996Z remote: Compressing objects:  60% (218/363)        
+2021-06-29T00:40:34.2528519Z remote: Compressing objects:  61% (222/363)        
+2021-06-29T00:40:34.2529052Z remote: Compressing objects:  62% (226/363)        
+2021-06-29T00:40:34.2529574Z remote: Compressing objects:  63% (229/363)        
+2021-06-29T00:40:34.2530110Z remote: Compressing objects:  64% (233/363)        
+2021-06-29T00:40:34.2530642Z remote: Compressing objects:  65% (236/363)        
+2021-06-29T00:40:34.2531165Z remote: Compressing objects:  66% (240/363)        
+2021-06-29T00:40:34.2531697Z remote: Compressing objects:  67% (244/363)        
+2021-06-29T00:40:34.2532216Z remote: Compressing objects:  68% (247/363)        
+2021-06-29T00:40:34.2532757Z remote: Compressing objects:  69% (251/363)        
+2021-06-29T00:40:34.2533278Z remote: Compressing objects:  70% (255/363)        
+2021-06-29T00:40:34.2533814Z remote: Compressing objects:  71% (258/363)        
+2021-06-29T00:40:34.2534334Z remote: Compressing objects:  72% (262/363)        
+2021-06-29T00:40:34.2534870Z remote: Compressing objects:  73% (265/363)        
+2021-06-29T00:40:34.2535402Z remote: Compressing objects:  74% (269/363)        
+2021-06-29T00:40:34.2535919Z remote: Compressing objects:  75% (273/363)        
+2021-06-29T00:40:34.2536607Z remote: Compressing objects:  76% (276/363)        
+2021-06-29T00:40:34.2537136Z remote: Compressing objects:  77% (280/363)        
+2021-06-29T00:40:34.2537673Z remote: Compressing objects:  78% (284/363)        
+2021-06-29T00:40:34.2538253Z remote: Compressing objects:  79% (287/363)        
+2021-06-29T00:40:34.2538796Z remote: Compressing objects:  80% (291/363)        
+2021-06-29T00:40:34.2539316Z remote: Compressing objects:  81% (295/363)        
+2021-06-29T00:40:34.2539851Z remote: Compressing objects:  82% (298/363)        
+2021-06-29T00:40:34.2540385Z remote: Compressing objects:  83% (302/363)        
+2021-06-29T00:40:34.2540904Z remote: Compressing objects:  84% (305/363)        
+2021-06-29T00:40:34.2541441Z remote: Compressing objects:  85% (309/363)        
+2021-06-29T00:40:34.2541961Z remote: Compressing objects:  86% (313/363)        
+2021-06-29T00:40:34.2542494Z remote: Compressing objects:  87% (316/363)        
+2021-06-29T00:40:34.2543012Z remote: Compressing objects:  88% (320/363)        
+2021-06-29T00:40:34.2543547Z remote: Compressing objects:  89% (324/363)        
+2021-06-29T00:40:34.2544071Z remote: Compressing objects:  90% (327/363)        
+2021-06-29T00:40:34.2544655Z remote: Compressing objects:  91% (331/363)        
+2021-06-29T00:40:34.2545193Z remote: Compressing objects:  92% (334/363)        
+2021-06-29T00:40:34.2545710Z remote: Compressing objects:  93% (338/363)        
+2021-06-29T00:40:34.2546248Z remote: Compressing objects:  94% (342/363)        
+2021-06-29T00:40:34.2546769Z remote: Compressing objects:  95% (345/363)        
+2021-06-29T00:40:34.2547301Z remote: Compressing objects:  96% (349/363)        
+2021-06-29T00:40:34.2547813Z remote: Compressing objects:  97% (353/363)        
+2021-06-29T00:40:34.2548346Z remote: Compressing objects:  98% (356/363)        
+2021-06-29T00:40:34.2548865Z remote: Compressing objects:  99% (360/363)        
+2021-06-29T00:40:34.2549399Z remote: Compressing objects: 100% (363/363)        
+2021-06-29T00:40:34.2549954Z remote: Compressing objects: 100% (363/363), done.        
+2021-06-29T00:40:34.2550448Z Receiving objects:   0% (1/679)
+2021-06-29T00:40:34.2550890Z Receiving objects:   1% (7/679)
+2021-06-29T00:40:34.2551317Z Receiving objects:   2% (14/679)
+2021-06-29T00:40:34.2551765Z Receiving objects:   3% (21/679)
+2021-06-29T00:40:34.2552222Z Receiving objects:   4% (28/679)
+2021-06-29T00:40:34.2552648Z Receiving objects:   5% (34/679)
+2021-06-29T00:40:34.2553150Z Receiving objects:   6% (41/679)
+2021-06-29T00:40:34.2553579Z Receiving objects:   7% (48/679)
+2021-06-29T00:40:34.2554017Z Receiving objects:   8% (55/679)
+2021-06-29T00:40:34.2554442Z Receiving objects:   9% (62/679)
+2021-06-29T00:40:34.2554880Z Receiving objects:  10% (68/679)
+2021-06-29T00:40:34.2555316Z Receiving objects:  11% (75/679)
+2021-06-29T00:40:34.2555747Z Receiving objects:  12% (82/679)
+2021-06-29T00:40:34.2556189Z Receiving objects:  13% (89/679)
+2021-06-29T00:40:34.2556616Z Receiving objects:  14% (96/679)
+2021-06-29T00:40:34.2557057Z Receiving objects:  15% (102/679)
+2021-06-29T00:40:34.2557487Z Receiving objects:  16% (109/679)
+2021-06-29T00:40:34.2557931Z Receiving objects:  17% (116/679)
+2021-06-29T00:40:34.2558359Z Receiving objects:  18% (123/679)
+2021-06-29T00:40:34.2558799Z Receiving objects:  19% (130/679)
+2021-06-29T00:40:34.2559229Z Receiving objects:  20% (136/679)
+2021-06-29T00:40:34.2559666Z Receiving objects:  21% (143/679)
+2021-06-29T00:40:34.2560105Z Receiving objects:  22% (150/679)
+2021-06-29T00:40:34.2560534Z Receiving objects:  23% (157/679)
+2021-06-29T00:40:34.2560971Z Receiving objects:  24% (163/679)
+2021-06-29T00:40:34.2561397Z Receiving objects:  25% (170/679)
+2021-06-29T00:40:34.2561836Z Receiving objects:  26% (177/679)
+2021-06-29T00:40:34.2562261Z Receiving objects:  27% (184/679)
+2021-06-29T00:40:34.2562698Z Receiving objects:  28% (191/679)
+2021-06-29T00:40:34.2563126Z Receiving objects:  29% (197/679)
+2021-06-29T00:40:34.2563564Z Receiving objects:  30% (204/679)
+2021-06-29T00:40:34.2563986Z Receiving objects:  31% (211/679)
+2021-06-29T00:40:34.2564423Z Receiving objects:  32% (218/679)
+2021-06-29T00:40:34.2564849Z Receiving objects:  33% (225/679)
+2021-06-29T00:40:34.2565290Z Receiving objects:  34% (231/679)
+2021-06-29T00:40:34.2565727Z Receiving objects:  35% (238/679)
+2021-06-29T00:40:34.2566201Z Receiving objects:  36% (245/679)
+2021-06-29T00:40:34.2566648Z Receiving objects:  37% (252/679)
+2021-06-29T00:40:34.2567073Z Receiving objects:  38% (259/679)
+2021-06-29T00:40:34.2567516Z Receiving objects:  39% (265/679)
+2021-06-29T00:40:34.2567942Z Receiving objects:  40% (272/679)
+2021-06-29T00:40:34.2568381Z Receiving objects:  41% (279/679)
+2021-06-29T00:40:34.2568807Z Receiving objects:  42% (286/679)
+2021-06-29T00:40:34.2569249Z Receiving objects:  43% (292/679)
+2021-06-29T00:40:34.2569676Z Receiving objects:  44% (299/679)
+2021-06-29T00:40:34.2570115Z Receiving objects:  45% (306/679)
+2021-06-29T00:40:34.2570554Z Receiving objects:  46% (313/679)
+2021-06-29T00:40:34.2570980Z Receiving objects:  47% (320/679)
+2021-06-29T00:40:34.2571420Z Receiving objects:  48% (326/679)
+2021-06-29T00:40:34.2571842Z Receiving objects:  49% (333/679)
+2021-06-29T00:40:34.2572279Z Receiving objects:  50% (340/679)
+2021-06-29T00:40:34.2572701Z Receiving objects:  51% (347/679)
+2021-06-29T00:40:34.2573143Z Receiving objects:  52% (354/679)
+2021-06-29T00:40:34.2573567Z Receiving objects:  53% (360/679)
+2021-06-29T00:40:34.2574003Z Receiving objects:  54% (367/679)
+2021-06-29T00:40:34.2574433Z Receiving objects:  55% (374/679)
+2021-06-29T00:40:34.2574870Z Receiving objects:  56% (381/679)
+2021-06-29T00:40:34.2575303Z Receiving objects:  57% (388/679)
+2021-06-29T00:40:34.2575732Z Receiving objects:  58% (394/679)
+2021-06-29T00:40:34.2576170Z Receiving objects:  59% (401/679)
+2021-06-29T00:40:34.2577270Z Receiving objects:  60% (408/679)
+2021-06-29T00:40:34.2577716Z Receiving objects:  61% (415/679)
+2021-06-29T00:40:34.2578143Z Receiving objects:  62% (421/679)
+2021-06-29T00:40:34.2578585Z Receiving objects:  63% (428/679)
+2021-06-29T00:40:34.2579013Z Receiving objects:  64% (435/679)
+2021-06-29T00:40:34.2579455Z Receiving objects:  65% (442/679)
+2021-06-29T00:40:34.2579887Z Receiving objects:  66% (449/679)
+2021-06-29T00:40:34.2580332Z Receiving objects:  67% (455/679)
+2021-06-29T00:40:34.2581251Z remote: Total 679 (delta 296), reused 588 (delta 214), pack-reused 0        
+2021-06-29T00:40:34.2581857Z Receiving objects:  68% (462/679)
+2021-06-29T00:40:34.2582301Z Receiving objects:  69% (469/679)
+2021-06-29T00:40:34.2582835Z Receiving objects:  70% (476/679)
+2021-06-29T00:40:34.2583274Z Receiving objects:  71% (483/679)
+2021-06-29T00:40:34.2583700Z Receiving objects:  72% (489/679)
+2021-06-29T00:40:34.2584142Z Receiving objects:  73% (496/679)
+2021-06-29T00:40:34.2584570Z Receiving objects:  74% (503/679)
+2021-06-29T00:40:34.2585012Z Receiving objects:  75% (510/679)
+2021-06-29T00:40:34.2585437Z Receiving objects:  76% (517/679)
+2021-06-29T00:40:34.2585875Z Receiving objects:  77% (523/679)
+2021-06-29T00:40:34.2586301Z Receiving objects:  78% (530/679)
+2021-06-29T00:40:34.2586738Z Receiving objects:  79% (537/679)
+2021-06-29T00:40:34.2587180Z Receiving objects:  80% (544/679)
+2021-06-29T00:40:34.2587605Z Receiving objects:  81% (550/679)
+2021-06-29T00:40:34.2588044Z Receiving objects:  82% (557/679)
+2021-06-29T00:40:34.2588475Z Receiving objects:  83% (564/679)
+2021-06-29T00:40:34.2588912Z Receiving objects:  84% (571/679)
+2021-06-29T00:40:34.2589336Z Receiving objects:  85% (578/679)
+2021-06-29T00:40:34.2589781Z Receiving objects:  86% (584/679)
+2021-06-29T00:40:34.2590208Z Receiving objects:  87% (591/679)
+2021-06-29T00:40:34.2590648Z Receiving objects:  88% (598/679)
+2021-06-29T00:40:34.2591077Z Receiving objects:  89% (605/679)
+2021-06-29T00:40:34.2591523Z Receiving objects:  90% (612/679)
+2021-06-29T00:40:34.2591960Z Receiving objects:  91% (618/679)
+2021-06-29T00:40:34.2592383Z Receiving objects:  92% (625/679)
+2021-06-29T00:40:34.2592824Z Receiving objects:  93% (632/679)
+2021-06-29T00:40:34.2593247Z Receiving objects:  94% (639/679)
+2021-06-29T00:40:34.2593693Z Receiving objects:  95% (646/679)
+2021-06-29T00:40:34.2594115Z Receiving objects:  96% (652/679)
+2021-06-29T00:40:34.2594558Z Receiving objects:  97% (659/679)
+2021-06-29T00:40:34.2594986Z Receiving objects:  98% (666/679)
+2021-06-29T00:40:34.2595487Z Receiving objects:  99% (673/679)
+2021-06-29T00:40:34.2595917Z Receiving objects: 100% (679/679)
+2021-06-29T00:40:34.2596424Z Receiving objects: 100% (679/679), 462.78 KiB | 33.05 MiB/s, done.
+2021-06-29T00:40:34.2596924Z Resolving deltas:   0% (0/296)
+2021-06-29T00:40:34.2597341Z Resolving deltas:   1% (3/296)
+2021-06-29T00:40:34.2597770Z Resolving deltas:   2% (6/296)
+2021-06-29T00:40:34.2598182Z Resolving deltas:   3% (9/296)
+2021-06-29T00:40:34.2598613Z Resolving deltas:   4% (12/296)
+2021-06-29T00:40:34.2599028Z Resolving deltas:   5% (15/296)
+2021-06-29T00:40:34.2599454Z Resolving deltas:   6% (18/296)
+2021-06-29T00:40:34.2599873Z Resolving deltas:   7% (21/296)
+2021-06-29T00:40:34.2600300Z Resolving deltas:   8% (24/296)
+2021-06-29T00:40:34.2600711Z Resolving deltas:   9% (27/296)
+2021-06-29T00:40:34.2601137Z Resolving deltas:  10% (30/296)
+2021-06-29T00:40:34.2601549Z Resolving deltas:  11% (33/296)
+2021-06-29T00:40:34.2601972Z Resolving deltas:  12% (36/296)
+2021-06-29T00:40:34.2602399Z Resolving deltas:  13% (39/296)
+2021-06-29T00:40:34.2602812Z Resolving deltas:  14% (42/296)
+2021-06-29T00:40:34.2603235Z Resolving deltas:  15% (45/296)
+2021-06-29T00:40:34.2603646Z Resolving deltas:  16% (48/296)
+2021-06-29T00:40:34.2604066Z Resolving deltas:  17% (51/296)
+2021-06-29T00:40:34.2604483Z Resolving deltas:  18% (54/296)
+2021-06-29T00:40:34.2604909Z Resolving deltas:  19% (57/296)
+2021-06-29T00:40:34.2605317Z Resolving deltas:  20% (60/296)
+2021-06-29T00:40:34.2605737Z Resolving deltas:  21% (63/296)
+2021-06-29T00:40:34.2606147Z Resolving deltas:  22% (66/296)
+2021-06-29T00:40:34.2612038Z Resolving deltas:  23% (69/296)
+2021-06-29T00:40:34.2612583Z Resolving deltas:  24% (72/296)
+2021-06-29T00:40:34.2613063Z Resolving deltas:  25% (74/296)
+2021-06-29T00:40:34.2613552Z Resolving deltas:  26% (77/296)
+2021-06-29T00:40:34.2614029Z Resolving deltas:  27% (80/296)
+2021-06-29T00:40:34.2614515Z Resolving deltas:  28% (83/296)
+2021-06-29T00:40:34.2614989Z Resolving deltas:  29% (86/296)
+2021-06-29T00:40:34.2615492Z Resolving deltas:  30% (89/296)
+2021-06-29T00:40:34.2615968Z Resolving deltas:  31% (92/296)
+2021-06-29T00:40:34.2616614Z Resolving deltas:  32% (95/296)
+2021-06-29T00:40:34.2617281Z Resolving deltas:  33% (98/296)
+2021-06-29T00:40:34.2617771Z Resolving deltas:  34% (101/296)
+2021-06-29T00:40:34.2618251Z Resolving deltas:  35% (104/296)
+2021-06-29T00:40:34.2618746Z Resolving deltas:  36% (107/296)
+2021-06-29T00:40:34.2619236Z Resolving deltas:  37% (110/296)
+2021-06-29T00:40:34.2619713Z Resolving deltas:  38% (113/296)
+2021-06-29T00:40:34.2620202Z Resolving deltas:  39% (116/296)
+2021-06-29T00:40:34.2620681Z Resolving deltas:  40% (119/296)
+2021-06-29T00:40:34.2621170Z Resolving deltas:  41% (122/296)
+2021-06-29T00:40:34.2621648Z Resolving deltas:  42% (125/296)
+2021-06-29T00:40:34.2622141Z Resolving deltas:  43% (128/296)
+2021-06-29T00:40:34.2622617Z Resolving deltas:  44% (131/296)
+2021-06-29T00:40:34.2623102Z Resolving deltas:  45% (134/296)
+2021-06-29T00:40:34.2623579Z Resolving deltas:  46% (137/296)
+2021-06-29T00:40:34.2624070Z Resolving deltas:  47% (140/296)
+2021-06-29T00:40:34.2624548Z Resolving deltas:  48% (143/296)
+2021-06-29T00:40:34.2625034Z Resolving deltas:  49% (146/296)
+2021-06-29T00:40:34.2625523Z Resolving deltas:  50% (148/296)
+2021-06-29T00:40:34.2625996Z Resolving deltas:  51% (151/296)
+2021-06-29T00:40:34.2626484Z Resolving deltas:  52% (154/296)
+2021-06-29T00:40:34.2626956Z Resolving deltas:  53% (157/296)
+2021-06-29T00:40:34.2627440Z Resolving deltas:  54% (160/296)
+2021-06-29T00:40:34.2627918Z Resolving deltas:  55% (163/296)
+2021-06-29T00:40:34.2628402Z Resolving deltas:  56% (166/296)
+2021-06-29T00:40:34.2628877Z Resolving deltas:  57% (169/296)
+2021-06-29T00:40:34.2629366Z Resolving deltas:  58% (172/296)
+2021-06-29T00:40:34.2629838Z Resolving deltas:  59% (175/296)
+2021-06-29T00:40:34.2630323Z Resolving deltas:  60% (178/296)
+2021-06-29T00:40:34.2630810Z Resolving deltas:  61% (181/296)
+2021-06-29T00:40:34.2631285Z Resolving deltas:  62% (184/296)
+2021-06-29T00:40:34.2631855Z Resolving deltas:  63% (187/296)
+2021-06-29T00:40:34.2632338Z Resolving deltas:  64% (190/296)
+2021-06-29T00:40:34.2632824Z Resolving deltas:  65% (193/296)
+2021-06-29T00:40:34.2633306Z Resolving deltas:  66% (196/296)
+2021-06-29T00:40:34.2633796Z Resolving deltas:  67% (199/296)
+2021-06-29T00:40:34.2634271Z Resolving deltas:  68% (202/296)
+2021-06-29T00:40:34.2634763Z Resolving deltas:  69% (205/296)
+2021-06-29T00:40:34.2635236Z Resolving deltas:  70% (208/296)
+2021-06-29T00:40:34.2635722Z Resolving deltas:  71% (211/296)
+2021-06-29T00:40:34.2636198Z Resolving deltas:  72% (214/296)
+2021-06-29T00:40:34.2636689Z Resolving deltas:  73% (217/296)
+2021-06-29T00:40:34.2637176Z Resolving deltas:  74% (220/296)
+2021-06-29T00:40:34.2637649Z Resolving deltas:  75% (222/296)
+2021-06-29T00:40:34.2638139Z Resolving deltas:  76% (225/296)
+2021-06-29T00:40:34.2638613Z Resolving deltas:  77% (228/296)
+2021-06-29T00:40:34.2639100Z Resolving deltas:  78% (231/296)
+2021-06-29T00:40:34.2639573Z Resolving deltas:  79% (234/296)
+2021-06-29T00:40:34.2640062Z Resolving deltas:  80% (237/296)
+2021-06-29T00:40:34.2640538Z Resolving deltas:  81% (240/296)
+2021-06-29T00:40:34.2641026Z Resolving deltas:  82% (243/296)
+2021-06-29T00:40:34.2641509Z Resolving deltas:  83% (246/296)
+2021-06-29T00:40:34.2641998Z Resolving deltas:  84% (249/296)
+2021-06-29T00:40:34.2642474Z Resolving deltas:  85% (252/296)
+2021-06-29T00:40:34.2642959Z Resolving deltas:  86% (255/296)
+2021-06-29T00:40:34.2643445Z Resolving deltas:  87% (258/296)
+2021-06-29T00:40:34.2643923Z Resolving deltas:  88% (261/296)
+2021-06-29T00:40:34.2644411Z Resolving deltas:  89% (264/296)
+2021-06-29T00:40:34.2644888Z Resolving deltas:  90% (267/296)
+2021-06-29T00:40:34.2645371Z Resolving deltas:  91% (270/296)
+2021-06-29T00:40:34.2645897Z Resolving deltas:  92% (273/296)
+2021-06-29T00:40:34.2646323Z Resolving deltas:  93% (276/296)
+2021-06-29T00:40:34.2646734Z Resolving deltas:  94% (279/296)
+2021-06-29T00:40:34.2647158Z Resolving deltas:  95% (282/296)
+2021-06-29T00:40:34.2647575Z Resolving deltas:  96% (285/296)
+2021-06-29T00:40:34.2647997Z Resolving deltas:  97% (288/296)
+2021-06-29T00:40:34.2648422Z Resolving deltas:  98% (291/296)
+2021-06-29T00:40:34.2648902Z Resolving deltas:  99% (294/296)
+2021-06-29T00:40:34.2649330Z Resolving deltas: 100% (296/296)
+2021-06-29T00:40:34.2649763Z Resolving deltas: 100% (296/296), done.
+2021-06-29T00:40:34.2650727Z From https://github.com/ZION-APP/ZION-FRONTEND
+2021-06-29T00:40:34.2651641Z  * [new branch]      Cuenta-bancaria      -> origin/Cuenta-bancaria
+2021-06-29T00:40:34.2652639Z  * [new branch]      Goal-creation-branch -> origin/Goal-creation-branch
+2021-06-29T00:40:34.2653614Z  * [new branch]      Register-branch      -> origin/Register-branch
+2021-06-29T00:40:34.2654426Z  * [new branch]      develop              -> origin/develop
+2021-06-29T00:40:34.2655182Z  * [new branch]      info-screen          -> origin/info-screen
+2021-06-29T00:40:34.2655896Z  * [new branch]      master               -> origin/master
+2021-06-29T00:40:34.2656779Z  * [new branch]      more-options         -> origin/more-options
+2021-06-29T00:40:34.2657524Z  * [new branch]      perfil               -> origin/perfil
+2021-06-29T00:40:34.2658594Z ##[command]git checkout --progress --force 72a1bb3d5e42c1d04e66d7170cd730e1f1acf0c0
+2021-06-29T00:40:34.2659706Z Note: switching to '72a1bb3d5e42c1d04e66d7170cd730e1f1acf0c0'.
+2021-06-29T00:40:34.2660208Z 
+2021-06-29T00:40:34.2660899Z You are in 'detached HEAD' state. You can look around, make experimental
+2021-06-29T00:40:34.2661626Z changes and commit them, and you can discard any commits you make in this
+2021-06-29T00:40:34.2662350Z state without impacting any branches by switching back to a branch.
+2021-06-29T00:40:34.2662777Z 
+2021-06-29T00:40:34.2663244Z If you want to create a new branch to retain commits you create, you may
+2021-06-29T00:40:34.2664094Z do so (now or later) by using -c with the switch command. Example:
+2021-06-29T00:40:34.2664481Z 
+2021-06-29T00:40:34.2664999Z   git switch -c <new-branch-name>
+2021-06-29T00:40:34.2665321Z 
+2021-06-29T00:40:34.2665771Z Or undo this operation with:
+2021-06-29T00:40:34.2666063Z 
+2021-06-29T00:40:34.2666500Z   git switch -
+2021-06-29T00:40:34.2666738Z 
+2021-06-29T00:40:34.2667304Z Turn off this advice by setting config variable advice.detachedHead to false
+2021-06-29T00:40:34.2667794Z 
+2021-06-29T00:40:34.2668190Z HEAD is now at 72a1bb3 corrigendo selected
+2021-06-29T00:40:34.2806949Z ##[group]Run actions/setup-java@v1
+2021-06-29T00:40:34.2807385Z with:
+2021-06-29T00:40:34.2807731Z   java-version: 12.x
+2021-06-29T00:40:34.2808142Z   java-package: jdk
+2021-06-29T00:40:34.2808541Z   architecture: x64
+2021-06-29T00:40:34.2808946Z   server-id: github
+2021-06-29T00:40:34.2809403Z   server-username: GITHUB_ACTOR
+2021-06-29T00:40:34.2809934Z   server-password: GITHUB_TOKEN
+2021-06-29T00:40:34.2810368Z ##[endgroup]
+2021-06-29T00:40:36.1973946Z [command]/usr/bin/tar --version
+2021-06-29T00:40:36.1974457Z tar (GNU tar) 1.30
+2021-06-29T00:40:36.1974968Z Copyright (C) 2017 Free Software Foundation, Inc.
+2021-06-29T00:40:36.1975802Z License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+2021-06-29T00:40:36.1976919Z This is free software: you are free to change and redistribute it.
+2021-06-29T00:40:36.1977693Z There is NO WARRANTY, to the extent permitted by law.
+2021-06-29T00:40:36.1978107Z 
+2021-06-29T00:40:36.1978596Z Written by John Gilmore and Jay Fenlason.
+2021-06-29T00:40:36.1979881Z [command]/usr/bin/tar xz --warning=no-unknown-keyword -C /home/runner/work/_temp/temp_1977788151 -f /home/runner/work/_temp/62a08bef-094b-4643-b8b6-a9665696ad6d
+2021-06-29T00:40:38.9805826Z creating settings.xml with server-id: github; environment variables: username=$GITHUB_ACTOR, *** and gpg-passphrase=null
+2021-06-29T00:40:38.9876166Z writing /home/runner/.m2/settings.xml
+2021-06-29T00:40:39.0699677Z ##[group]Run subosito/flutter-action@v1
+2021-06-29T00:40:39.0700310Z with:
+2021-06-29T00:40:39.0700720Z   channel: beta
+2021-06-29T00:40:39.0701179Z env:
+2021-06-29T00:40:39.0701756Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:40:39.0702523Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:40:39.0703244Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:40:39.0703947Z ##[endgroup]
+2021-06-29T00:40:41.7740215Z [command]/usr/bin/tar x --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/temp_1295283979 -f /home/runner/work/_temp/89cef3f9-fbf5-48b0-b321-0c3ff2a7a5ac
+2021-06-29T00:41:28.3259648Z ##[group]Run flutter pub get
+2021-06-29T00:41:28.3260184Z [36;1mflutter pub get[0m
+2021-06-29T00:41:28.3298241Z shell: /usr/bin/bash -e {0}
+2021-06-29T00:41:28.3298609Z env:
+2021-06-29T00:41:28.3299072Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:28.3299650Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:28.3300235Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:28.3300900Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64
+2021-06-29T00:41:28.3301651Z   PUB_CACHE: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache
+2021-06-29T00:41:28.3302231Z ##[endgroup]
+2021-06-29T00:41:29.2866949Z 
+2021-06-29T00:41:29.2899112Z   ╔════════════════════════════════════════════════════════════════════════════╗
+2021-06-29T00:41:29.2900265Z   ║                 Welcome to Flutter! - https://flutter.dev                  ║
+2021-06-29T00:41:29.2901211Z   ║                                                                            ║
+2021-06-29T00:41:29.2902157Z   ║ The Flutter tool uses Google Analytics to anonymously report feature usage ║
+2021-06-29T00:41:29.2903214Z   ║ statistics and basic crash reports. This data is used to help improve      ║
+2021-06-29T00:41:29.2913579Z   ║ Flutter tools over time.                                                   ║
+2021-06-29T00:41:29.2938841Z   ║                                                                            ║
+2021-06-29T00:41:29.2939840Z   ║ Flutter tool analytics are not sent on the very first run. To disable      ║
+2021-06-29T00:41:29.2940926Z   ║ reporting, type 'flutter config --no-analytics'. To display the current    ║
+2021-06-29T00:41:29.2942078Z   ║ setting, type 'flutter config'. If you opt out of analytics, an opt-out    ║
+2021-06-29T00:41:29.2943214Z   ║ event will be sent, and then no further information will be sent by the    ║
+2021-06-29T00:41:29.2944086Z   ║ Flutter tool.                                                              ║
+2021-06-29T00:41:29.2944748Z   ║                                                                            ║
+2021-06-29T00:41:29.2945570Z   ║ By downloading the Flutter SDK, you agree to the Google Terms of Service.  ║
+2021-06-29T00:41:29.2946583Z   ║ Note: The Google Privacy Policy describes how data is handled in this      ║
+2021-06-29T00:41:29.2947464Z   ║ service.                                                                   ║
+2021-06-29T00:41:29.2948104Z   ║                                                                            ║
+2021-06-29T00:41:29.2948930Z   ║ Moreover, Flutter includes the Dart SDK, which may send usage metrics and  ║
+2021-06-29T00:41:29.2949795Z   ║ crash reports to Google.                                                   ║
+2021-06-29T00:41:29.2950502Z   ║                                                                            ║
+2021-06-29T00:41:29.2951205Z   ║ Read about data we send with crash reports:                                ║
+2021-06-29T00:41:29.2952244Z   ║ https://flutter.dev/docs/reference/crash-reporting                         ║
+2021-06-29T00:41:29.2953086Z   ║                                                                            ║
+2021-06-29T00:41:29.2953736Z   ║ See Google's privacy policy:                                               ║
+2021-06-29T00:41:29.2954639Z   ║ https://policies.google.com/privacy                                        ║
+2021-06-29T00:41:29.2955562Z   ╚════════════════════════════════════════════════════════════════════════════╝
+2021-06-29T00:41:29.2955834Z 
+2021-06-29T00:41:33.7071493Z Running "flutter pub get" in flutter_tools...                       3.7s
+2021-06-29T00:41:38.8966940Z Running "flutter pub get" in ZION-FRONTEND...                       5.1s
+2021-06-29T00:41:39.1042173Z ##[group]Run flutter analyze .
+2021-06-29T00:41:39.1042999Z [36;1mflutter analyze .[0m
+2021-06-29T00:41:39.1082024Z shell: /usr/bin/bash -e {0}
+2021-06-29T00:41:39.1082407Z env:
+2021-06-29T00:41:39.1082866Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:39.1083465Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:39.1084044Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:39.1084717Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64
+2021-06-29T00:41:39.1085477Z   PUB_CACHE: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache
+2021-06-29T00:41:39.1086060Z ##[endgroup]
+2021-06-29T00:41:54.7550791Z Analyzing ZION-FRONTEND...                                      
+2021-06-29T00:41:54.7584828Z No issues found! (ran in 14.6s)
+2021-06-29T00:41:54.7957339Z ##[group]Run flutter test
+2021-06-29T00:41:54.7957828Z [36;1mflutter test[0m
+2021-06-29T00:41:54.8038657Z shell: /usr/bin/bash -e {0}
+2021-06-29T00:41:54.8039064Z env:
+2021-06-29T00:41:54.8039543Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:54.8040153Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:54.8040757Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:41:54.8041424Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64
+2021-06-29T00:41:54.8042205Z   PUB_CACHE: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache
+2021-06-29T00:41:54.8042793Z ##[endgroup]
+2021-06-29T00:41:55.9652988Z 
+2021-06-29T00:41:56.9594743Z 00:00 +0: loading /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/test/validator_test.dart                                                                                                               
+2021-06-29T00:41:57.9581712Z 00:01 +0: loading /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/test/validator_test.dart                                                                                                               
+2021-06-29T00:41:58.9582263Z 00:02 +0: loading /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/test/validator_test.dart                                                                                                               
+2021-06-29T00:41:59.9582934Z 00:03 +0: loading /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/test/validator_test.dart                                                                                                               
+2021-06-29T00:42:00.9617305Z 00:04 +0: loading /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/test/validator_test.dart                                                                                                               
+2021-06-29T00:42:01.9583100Z 00:05 +0: loading /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/test/validator_test.dart                                                                                                               
+2021-06-29T00:42:02.9582117Z 00:06 +0: loading /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/test/validator_test.dart                                                                                                               
+2021-06-29T00:42:03.9582059Z 00:07 +0: loading /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/test/validator_test.dart                                                                                                               
+2021-06-29T00:42:05.0158675Z 00:08 +0: loading /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/test/validator_test.dart                                                                                                               
+2021-06-29T00:42:05.9583105Z 00:09 +0: loading /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/test/validator_test.dart                                                                                                               
+2021-06-29T00:42:06.5974828Z 00:10 +0: loading /home/runner/work/ZION-FRONTEND/ZION-FRONTEND/test/validator_test.dart                                                                                                               
+2021-06-29T00:42:07.7278405Z 00:10 +0: validarCorreo1                                                                                                                                                                               
+2021-06-29T00:42:07.7285495Z 00:10 +1: validarCorreo1                                                                                                                                                                               
+2021-06-29T00:42:07.7289355Z 00:10 +1: validarCorreo2                                                                                                                                                                               
+2021-06-29T00:42:07.7290609Z 00:10 +2: validarCorreo2                                                                                                                                                                               
+2021-06-29T00:42:07.7291545Z 00:10 +2: validarCorreo3                                                                                                                                                                               
+2021-06-29T00:42:07.7292632Z 00:10 +3: validarCorreo3                                                                                                                                                                               
+2021-06-29T00:42:07.7293512Z 00:10 +3: validarCorreo4                                                                                                                                                                               
+2021-06-29T00:42:07.7294250Z 00:10 +4: validarCorreo4                                                                                                                                                                               
+2021-06-29T00:42:07.7294982Z 00:10 +4: validarCorreo5                                                                                                                                                                               
+2021-06-29T00:42:07.7295719Z 00:10 +5: validarCorreo5                                                                                                                                                                               
+2021-06-29T00:42:07.7296699Z 00:10 +5: validarContrasena1                                                                                                                                                                           
+2021-06-29T00:42:07.7297491Z 00:10 +6: validarContrasena1                                                                                                                                                                           
+2021-06-29T00:42:07.7298303Z 00:10 +6: validarContrasena2                                                                                                                                                                           
+2021-06-29T00:42:07.7299111Z 00:10 +7: validarContrasena2                                                                                                                                                                           
+2021-06-29T00:42:07.7299897Z 00:10 +7: validarContrasena3                                                                                                                                                                           
+2021-06-29T00:42:07.7300704Z 00:10 +8: validarContrasena3                                                                                                                                                                           
+2021-06-29T00:42:07.7301511Z 00:10 +8: validarContrasena4                                                                                                                                                                           
+2021-06-29T00:42:07.7302308Z 00:10 +9: validarContrasena4                                                                                                                                                                           
+2021-06-29T00:42:07.7303341Z 00:10 +9: validarContrasena5                                                                                                                                                                           
+2021-06-29T00:42:07.7304145Z 00:10 +10: validarContrasena5                                                                                                                                                                          
+2021-06-29T00:42:07.7304933Z 00:10 +10: validarContrasena6                                                                                                                                                                          
+2021-06-29T00:42:07.7305838Z 00:10 +11: validarContrasena6                                                                                                                                                                          
+2021-06-29T00:42:07.7306631Z 00:10 +11: validarUsername1                                                                                                                                                                            
+2021-06-29T00:42:07.7307398Z 00:10 +12: validarUsername1                                                                                                                                                                            
+2021-06-29T00:42:07.7308162Z 00:10 +12: validarUsername2                                                                                                                                                                            
+2021-06-29T00:42:07.7308924Z 00:10 +13: validarUsername2                                                                                                                                                                            
+2021-06-29T00:42:07.7309681Z 00:10 +13: validarUsername3                                                                                                                                                                            
+2021-06-29T00:42:07.7310451Z 00:10 +14: validarUsername3                                                                                                                                                                            
+2021-06-29T00:42:07.7311216Z 00:10 +14: validarUsername4                                                                                                                                                                            
+2021-06-29T00:42:07.7311964Z 00:10 +15: validarUsername4                                                                                                                                                                            
+2021-06-29T00:42:07.7312764Z 00:10 +15: validarNombreLargo1                                                                                                                                                                         
+2021-06-29T00:42:07.7313594Z 00:10 +16: validarNombreLargo1                                                                                                                                                                         
+2021-06-29T00:42:07.7314412Z 00:10 +16: validarNombreLargo2                                                                                                                                                                         
+2021-06-29T00:42:07.7315244Z 00:10 +17: validarNombreLargo2                                                                                                                                                                         
+2021-06-29T00:42:07.7316073Z 00:10 +17: validarNombreLargo3                                                                                                                                                                         
+2021-06-29T00:42:07.7316891Z 00:10 +18: validarNombreLargo3                                                                                                                                                                         
+2021-06-29T00:42:07.7317785Z 00:10 +18: validarNombreLargo4                                                                                                                                                                         
+2021-06-29T00:42:07.7318612Z 00:10 +19: validarNombreLargo4                                                                                                                                                                         
+2021-06-29T00:42:07.7319511Z 00:10 +19: validarValorMonetario1                                                                                                                                                                      
+2021-06-29T00:42:07.7320474Z 00:10 +20: validarValorMonetario1                                                                                                                                                                      
+2021-06-29T00:42:07.7321386Z 00:10 +20: validarValorMonetario2                                                                                                                                                                      
+2021-06-29T00:42:07.7322277Z 00:10 +21: validarValorMonetario2                                                                                                                                                                      
+2021-06-29T00:42:07.7323181Z 00:10 +21: validarValorMonetario3                                                                                                                                                                      
+2021-06-29T00:42:07.7324083Z 00:10 +22: validarValorMonetario3                                                                                                                                                                      
+2021-06-29T00:42:07.7324972Z 00:10 +22: validarValorMonetario4                                                                                                                                                                      
+2021-06-29T00:42:07.7325873Z 00:10 +23: validarValorMonetario4                                                                                                                                                                      
+2021-06-29T00:42:07.7326770Z 00:10 +23: validarValorMonetario5                                                                                                                                                                      
+2021-06-29T00:42:07.7327654Z 00:10 +24: validarValorMonetario5                                                                                                                                                                      
+2021-06-29T00:42:07.7328472Z 00:10 +24:  validarCedula1                                                                                                                                                                             
+2021-06-29T00:42:07.7329201Z 00:10 +25:  validarCedula1                                                                                                                                                                             
+2021-06-29T00:42:07.7329916Z 00:10 +25:  validarCedula2                                                                                                                                                                             
+2021-06-29T00:42:07.7330933Z 00:10 +26:  validarCedula2                                                                                                                                                                             
+2021-06-29T00:42:07.7331673Z 00:10 +26:  validarCedula3                                                                                                                                                                             
+2021-06-29T00:42:07.7332389Z 00:10 +27:  validarCedula3                                                                                                                                                                             
+2021-06-29T00:42:07.7333223Z 00:10 +27:  validarCedula4                                                                                                                                                                             
+2021-06-29T00:42:07.7333948Z 00:10 +28:  validarCedula4                                                                                                                                                                             
+2021-06-29T00:42:07.7334660Z 00:10 +28:  validarCedula5                                                                                                                                                                             
+2021-06-29T00:42:07.7335440Z 00:10 +29:  validarCedula5                                                                                                                                                                             
+2021-06-29T00:42:07.7336167Z 00:10 +29:  validarCedula6                                                                                                                                                                             
+2021-06-29T00:42:07.7337001Z 00:10 +30:  validarCedula6                                                                                                                                                                             
+2021-06-29T00:42:07.7337727Z 00:10 +30:  validarCedula7                                                                                                                                                                             
+2021-06-29T00:42:07.7338457Z 00:10 +31:  validarCedula7                                                                                                                                                                             
+2021-06-29T00:42:07.7339200Z 00:10 +31: validarNumCuenta1                                                                                                                                                                           
+2021-06-29T00:42:07.7339994Z 00:10 +32: validarNumCuenta1                                                                                                                                                                           
+2021-06-29T00:42:07.7340682Z 00:10 +32: validarNumCuenta2                                                                                                                                                                           
+2021-06-29T00:42:07.7341350Z 00:10 +33: validarNumCuenta2                                                                                                                                                                           
+2021-06-29T00:42:07.7342036Z 00:10 +33: validarNumCuenta3                                                                                                                                                                           
+2021-06-29T00:42:07.7342724Z 00:10 +34: validarNumCuenta3                                                                                                                                                                           
+2021-06-29T00:42:07.7343390Z 00:10 +34: validarNumCuenta4                                                                                                                                                                           
+2021-06-29T00:42:07.7344067Z 00:10 +35: validarNumCuenta4                                                                                                                                                                           
+2021-06-29T00:42:07.7344759Z 00:10 +35: validarNumCuenta5                                                                                                                                                                           
+2021-06-29T00:42:07.7345422Z 00:10 +36: validarNumCuenta5                                                                                                                                                                           
+2021-06-29T00:42:07.7346174Z 00:10 +36: validarNumCuenta6                                                                                                                                                                           
+2021-06-29T00:42:07.7346858Z 00:10 +37: validarNumCuenta6                                                                                                                                                                           
+2021-06-29T00:42:07.7347526Z 00:10 +37: validarNumCuenta7                                                                                                                                                                           
+2021-06-29T00:42:07.7348267Z 00:10 +38: validarNumCuenta7                                                                                                                                                                           
+2021-06-29T00:42:07.7348956Z 00:10 +38: validarNumCuenta8                                                                                                                                                                           
+2021-06-29T00:42:07.7349633Z 00:10 +39: validarNumCuenta8                                                                                                                                                                           
+2021-06-29T00:42:07.7350321Z 00:10 +39: validarNumCuenta9                                                                                                                                                                           
+2021-06-29T00:42:07.7351004Z 00:10 +40: validarNumCuenta9                                                                                                                                                                           
+2021-06-29T00:42:07.7351685Z 00:10 +40: validarNumCuenta10                                                                                                                                                                          
+2021-06-29T00:42:07.7352390Z 00:10 +41: validarNumCuenta10                                                                                                                                                                          
+2021-06-29T00:42:07.7353089Z 00:10 +41: validarNumCuenta11                                                                                                                                                                          
+2021-06-29T00:42:07.7353772Z 00:10 +42: validarNumCuenta11                                                                                                                                                                          
+2021-06-29T00:42:07.7354471Z 00:10 +42: validarNumCuenta12                                                                                                                                                                          
+2021-06-29T00:42:07.7355178Z 00:10 +43: validarNumCuenta12                                                                                                                                                                          
+2021-06-29T00:42:07.7355811Z 00:10 +43: All tests passed!                                                                                                                                                                           
+2021-06-29T00:42:07.7392720Z ##[group]Run flutter build apk
+2021-06-29T00:42:07.7393222Z [36;1mflutter build apk[0m
+2021-06-29T00:42:07.7430617Z shell: /usr/bin/bash -e {0}
+2021-06-29T00:42:07.7431095Z env:
+2021-06-29T00:42:07.7431585Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:42:07.7432182Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:42:07.7432768Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:42:07.7433439Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64
+2021-06-29T00:42:07.7434344Z   PUB_CACHE: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache
+2021-06-29T00:42:07.7434923Z ##[endgroup]
+2021-06-29T00:42:08.5472641Z 
+2021-06-29T00:42:08.5487260Z Building without sound null safety
+2021-06-29T00:42:08.5490761Z For more information see https://dart.dev/null-safety/unsound-null-safety
+2021-06-29T00:42:08.5492999Z 
+2021-06-29T00:43:56.9315096Z Running Gradle task 'assembleRelease'...                        
+2021-06-29T00:43:56.9331865Z warning: [options] source value 7 is obsolete and will be removed in a future release
+2021-06-29T00:43:56.9345373Z warning: [options] target value 7 is obsolete and will be removed in a future release
+2021-06-29T00:43:56.9349655Z warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+2021-06-29T00:43:57.7850154Z Note: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage-4.2.0/android/src/main/java/com/it_nomads/fluttersecurestorage/FlutterSecureStoragePlugin.java uses or overrides a deprecated API.
+2021-06-29T00:43:57.7852454Z Note: Recompile with -Xlint:deprecation for details.
+2021-06-29T00:43:57.7853274Z 3 warnings
+2021-06-29T00:44:06.6929497Z Calling mockable JAR artifact transform to create file: /home/runner/.gradle/caches/transforms-2/files-2.1/727ac72721260ada6667752e6ad96298/android.jar with input /usr/local/lib/android/sdk/platforms/android-28/android.jar
+2021-06-29T00:44:22.6905408Z Removed unused resources: Binary resource data reduced from 43KB to 36KB: Removed 16%
+2021-06-29T00:44:33.7042532Z Running Gradle task 'assembleRelease'...                          145.1s
+2021-06-29T00:44:34.0025892Z ✓  Built build/app/outputs/flutter-apk/app-release.apk (18.6MB).
+2021-06-29T00:44:34.0298307Z ##[group]Run actions/upload-artifact@v1
+2021-06-29T00:44:34.0298795Z with:
+2021-06-29T00:44:34.0299170Z   name: release-apk
+2021-06-29T00:44:34.0299744Z   path: build/app/outputs/apk/release/app-release.apk
+2021-06-29T00:44:34.0300285Z env:
+2021-06-29T00:44:34.0300752Z   JAVA_HOME_12.0.2_x64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:44:34.0301364Z   JAVA_HOME: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:44:34.0301957Z   JAVA_HOME_12_0_2_X64: /opt/hostedtoolcache/jdk/12.0.2/x64
+2021-06-29T00:44:34.0302644Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64
+2021-06-29T00:44:34.0303411Z   PUB_CACHE: /opt/hostedtoolcache/flutter/2.3.0-24.1.pre-beta/x64/.pub-cache
+2021-06-29T00:44:34.0304003Z ##[endgroup]
+2021-06-29T00:44:34.3114059Z Uploading artifact 'release-apk' from '/home/runner/work/ZION-FRONTEND/ZION-FRONTEND/build/app/outputs/apk/release/app-release.apk' for run #10
+2021-06-29T00:44:34.4134803Z Uploading 1 files
+2021-06-29T00:44:36.6301460Z File upload complete.
+2021-06-29T00:44:36.6311164Z Uploaded '19535382' bytes from '/home/runner/work/ZION-FRONTEND/ZION-FRONTEND/build/app/outputs/apk/release/app-release.apk' to server
+2021-06-29T00:44:36.7351635Z Associated artifact release-apk (438083) with run #10
+2021-06-29T00:44:36.7464811Z Post job cleanup.
+2021-06-29T00:44:36.8044722Z Cleaning up orphan processes
+2021-06-29T00:44:36.8399243Z Terminate orphan process: pid (1879) (java)
+2021-06-29T00:44:36.8480715Z Terminate orphan process: pid (2060) (java)
