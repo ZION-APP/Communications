@@ -20,10 +20,10 @@ https://youtu.be/i-gTZ_CyOUY
   * [Report_3] (https://github.com/ZION-APP/Communications/tree/main/Github%20Actions%20Reports/Report_3)
   * [Report_4] (https://github.com/ZION-APP/Communications/tree/main/Github%20Actions%20Reports/Report_4)
 5. Meetings
-  * [Meeting-Summary1] (../tree/main/Meetings/Meeting-Summary1)
-  * [Meeting-Summary2] (../tree/main/Meetings/Meeting-Summary2)
-  * [Meeting-Summary3] (../tree/main/Meetings/Meeting-Summary3)
+  * [Meeting-Summary1] (https://github.com/ZION-APP/Communications/blob/main/Meetings/Meeting-Summary1.docx)
+  * [Meeting-Summary2] (https://github.com/ZION-APP/Communications/blob/main/Meetings/Meeting-Summary2.docx)
+  * [Meeting-Summary3] (https://github.com/ZION-APP/Communications/blob/main/Meetings/Meeting-Summary3.docx)
 7. Release Versions
-  * [Zion-App_v1.0] (https://github.com/ZION-APP/Communications/blob/main/Release%20Versions/Zion-App_v1.0.zip)
-  * [Zion-App_v1.1] (https://github.com/ZION-APP/Communications/blob/main/Release%20Versions/Zion-App_v1.1.zip)
-  * [Zion-App_v1.2] (https://github.com/ZION-APP/Communications/blob/main/Release%20Versions/Zion-App_v1.2.zip)
+  * [Zion-App_v1.0] (https://github.com/ZION-APP/Communications/blob/main/Release%20Versions/Zion-App_v1.0)
+  * [Zion-App_v1.1] (https://github.com/ZION-APP/Communications/blob/main/Release%20Versions/Zion-App_v1.1)
+  * [Zion-App_v1.2] (https://github.com/ZION-APP/Communications/blob/main/Release%20Versions/Zion-App_v1.2)
