@@ -3,6 +3,9 @@
 # Pre-recorded video
 https://youtu.be/i-gTZ_CyOUY
 
+# Second pre-recorded video
+https://youtu.be/L6UzIGuwH_w
+
 # Table of Contents
 1. Analyzer Reports
 
